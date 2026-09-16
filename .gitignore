@@ -1,0 +1,52 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Raw data, generated datasets, caches, and databases
+data/raw/
+data/cache/
+datasets/
+cache/
+artifacts/
+*.parquet
+*.feather
+*.arrow
+*.duckdb
+*.db
+*.sqlite*
+
+# Large paper and archive collections
+*.pdf
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Containers and local runtime artifacts
+.docker/
+docker-data/
+*.log
+tmp/
+temp/
