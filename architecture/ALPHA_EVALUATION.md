@@ -19,4 +19,8 @@ Use development and validation evidence before protected Blind. Freeze candidate
 
 ## Protected Blind
 
-The old P0-7B Blind is `SUPERSEDED_UNCONSUMED` under ADR-0007; `BLIND_CONSUMED = FALSE`. Preserve it but never execute it. P0-7C ordinary research uses five annual walk-forward OOS folds through 2025 and excludes a new protected 2026 holdout from all candidate selection.
+The old P0-7B Blind is `SUPERSEDED_UNCONSUMED` under ADR-0007; `BLIND_CONSUMED = FALSE`. Preserve it but never execute it. P0-7C completed five annual walk-forward OOS folds through 2025 without accessing the protected 2026 holdout. P0-7D and Generation-2 research also exclude 2026 under ADR-0010.
+
+## Current qualification boundary
+
+P0-7C produced 17 broad OOS survivors but zero strict pool members. P0-7D evaluates their pairwise redundancy, ML Formula-span, and fixed-order marginal contribution with zero new predictive configurations. Because it reuses OOS evidence, any resulting `ALPHA_POOL_V1` remains research-only rather than independent confirmation.

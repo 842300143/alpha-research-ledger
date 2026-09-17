@@ -13,9 +13,10 @@ Produce diverse, economically plausible candidate signals for controlled evaluat
 
 ## Current priorities
 
-- China-market liquidity effects.
-- Nonlinear interactions among known factors.
-- Alpha Pool expansion with attention to low correlation.
+- Qualify the exact P0-7C survivors before generating additional candidates.
+- Treat Liquidity, Reversal, and Volatility as priority mechanisms, not proven Alphas.
+- Decompose ElasticNet's selective incremental value before allocating budget to more complex models.
+- Keep LightGBM and broad parameter search at zero budget until a specific incremental hypothesis is predeclared.
 
 ## Entry criteria for evaluation
 

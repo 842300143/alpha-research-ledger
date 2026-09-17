@@ -1,16 +1,19 @@
 # P0_7C_LONG_HORIZON_ALPHA_RESEARCH_V1
 
 - Task ID: `P0_7C_LONG_HORIZON_ALPHA_RESEARCH_V1`
-- Status: `DESIGN_READY` / `NOT_YET_EXECUTED`
+- Status: `P0_7C_PASS_WITH_WARNINGS` / `COMPLETE`
 - Intended execution repository: `D:\alpha-factory`
 - Research repository: `D:\alpha-research-ledger`
-- Evidence classification: design is `DOCUMENTED`; future results remain `UNKNOWN`
+- Protocol commit: `95dc8e3c5b895fe7bf47135536e0ed4843b73471`
+- Result commit: `a881bd956c70088100f85999e7f0f4f965777a25`
+- Completion checkpoint commit: `7e13a5129abfd5c0c4a56d37c1b1cd9c63a73138`
+- Evidence classification: design is `DOCUMENTED`; results are `EMPIRICAL_RESEARCH_ONLY`; costs and adjusted-unit execution are `SYNTHETIC`; production properties remain `UNKNOWN`
 
 ## 1. Goal
 
 Execute a bounded, reproducible long-horizon research program that compares transparent Formula Alpha, simple ML Alpha, and a minimal Portfolio Layer under one temporal discipline. Produce an Alpha Pool evidence table rather than select one magic winner.
 
-This specification authorizes no execution by itself. A later Alpha Factory controller directive must activate it and persist exact manifests before data access.
+This specification was activated by an exact Alpha Factory controller directive. Its frozen manifests and bounds governed the completed execution summarized in section 17.
 
 ## 2. Frozen dataset binding
 
@@ -264,4 +267,53 @@ Stop the affected track if its experiment budget is exhausted, reproducibility f
 
 Design readiness: `YES`.
 
-Execution readiness is conditional on a new Alpha Factory controller directive that persists this exact scope, verifies the frozen P0-6E hashes, creates the subset/split/experiment manifests, and proves the 2026 deny-before-load boundary. No empirical Alpha result is claimed by this design.
+Execution completed as `P0_7C_PASS_WITH_WARNINGS`. The empirical result did not establish a strict Alpha Pool, statistical certainty, production readiness, or real-trading readiness.
+
+## 17. Completed empirical result
+
+- 27 predictive configurations: 18 Formula and 9 ML.
+- Five annual OOS folds from 2021 through 2025; 135 configuration-fold attempts; no failed attempts or budget recycling.
+- Formula survivors: 8, from Liquidity, Reversal, and Volatility.
+- ML survivors under the broad gate: 9. ElasticNet showed selective matched incremental RankIC; LightGBM showed no matched incremental value.
+- Predictive survivors: 17.
+- Top-20 equal weight beat the alternative constructor in all six matched comparisons and becomes Portfolio Baseline V1 under ADR-0008.
+- Material signal and portfolio redundancy remained.
+- Strict Alpha Pool members: 0. The historical nine-name correlation/decay shortlist is provisional and must not be relabeled as a final pool.
+- Maximum DSR probability: `0.4228853062141328`; PBO: `NOT_JUSTIFIED`.
+- Exact reproduction passed; 97/97 repository tests passed; Independent Validator recorded 23 PASS / 7 UNKNOWN / 0 FAIL.
+- Protected 2026 holdout: `UNACCESSED / UNCONSUMED`.
+
+## 18. Research interpretation
+
+- Liquidity, Reversal, and Volatility are priority hypotheses, not proven production Alphas.
+- ElasticNet merits decomposition and bounded follow-up because three configurations showed positive matched incremental RankIC.
+- LightGBM receives no larger tuning budget merely because it is more complex.
+- The 17 survivors are correlated configurations, not 17 independent Alphas.
+- Weak DSR evidence leaves material multiple-testing and selection-bias risk.
+- P0-7D must qualify the exact frozen survivors before any broad Generation-2 search; it may validly return an empty pool.
+
+## 19. Authoritative Alpha Factory evidence
+
+- `reports/P0_7C_LONG_HORIZON_ALPHA_RESEARCH_REPORT.md`
+- `reports/P0_7C_CHECKPOINT.json`
+- `reports/P0_7C_FORMULA_REPORT.md`
+- `reports/P0_7C_ML_REPORT.md`
+- `reports/P0_7C_PORTFOLIO_REPORT.md`
+- `reports/P0_7C_ALPHA_POOL_REPORT.md`
+- `reports/P0_7C_POOL_OVERLAP_INCREMENTAL_AUDIT.md`
+- `reports/P0_7C_MULTIPLE_TESTING_REPORT.md`
+- `reports/P0_7C_REGIME_DIAGNOSTICS.md`
+- `reports/P0_7C_LEAKAGE_PIT_HOLDOUT_AUDIT.md`
+- `research/alpha_v1/results/RESULT_BUNDLE.json`
+- `research/alpha_v1/results/CANDIDATE_RESULTS.json`
+- `research/alpha_v1/results/PORTFOLIO_RESULTS.json`
+- `research/alpha_v1/registry/ALPHA_POOL.json`
+- `research/alpha_v1/registry/POOL_QUALIFICATION.json`
+- `research/alpha_v1/diagnostics/SIGNAL_CORRELATION.json`
+- `research/alpha_v1/diagnostics/POOL_OVERLAP_INCREMENTAL_AUDIT.json`
+- `research/alpha_v1/diagnostics/ML_INCREMENTAL.json`
+- `research/alpha_v1/VALIDATOR_RESULT.json`
+
+Result-bundle hash: `30f0879579906af2d341a9053f9090b19616fbd3facd7415461b5ae247329444`.
+
+Pool-audit hash: `9121c1984a237f7555171fea15bca882febfc4284e26a44c1527456ab4878f62`.

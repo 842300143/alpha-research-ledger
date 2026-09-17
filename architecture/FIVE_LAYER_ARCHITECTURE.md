@@ -10,7 +10,7 @@
 
 ## Current weakness
 
-L2 Alpha Discovery and L4 Portfolio Construction are currently the weakest layers. L1 work remains an active dependency; L3 controls and L5 realism must not be weakened to accelerate L2 or L4.
+L2 now has bounded P0-7C evidence, but distinct-signal qualification remains incomplete. L4 has a simple baseline rather than a proven optimizer. L1 limitations remain active dependencies; L3 controls and L5 realism must not be weakened to accelerate discovery or pool construction.
 
 ## Flow
 
