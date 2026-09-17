@@ -23,4 +23,8 @@ The old P0-7B Blind is `SUPERSEDED_UNCONSUMED` under ADR-0007; `BLIND_CONSUMED =
 
 ## Current qualification boundary
 
-P0-7C produced 17 broad OOS survivors but zero strict pool members. P0-7D evaluates their pairwise redundancy, ML Formula-span, and fixed-order marginal contribution with zero new predictive configurations. Because it reuses OOS evidence, any resulting `ALPHA_POOL_V1` remains research-only rather than independent confirmation.
+P0-7D qualified the exact 17 P0-7C survivors and produced a one-member research-only `ALPHA_POOL_V1`: `P07C_ML_ENET_A010_L50`. Ten candidates remained after de-duplication, but nine forward additions failed. Because qualification reused selected OOS evidence, the member is a comparator and research anchor rather than independent confirmation.
+
+P0-7E requires every new candidate to pass standalone stability, anchor-relative residual RankIC, correlation and overlap limits, matched post-cost incremental contribution, regime, drawdown, turnover, and 2x-cost gates. One deterministic order and one reverse leave-one-out pass produce the final pool. The cumulative search history is never reset.
+
+After P0-7E, evaluation freezes one final pool and moves to a separate protected-holdout adequacy/go-no-go decision. No P0-7E result can authorize 2026 access.

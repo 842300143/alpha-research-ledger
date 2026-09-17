@@ -10,7 +10,7 @@
 
 ## Current weakness
 
-L2 now has bounded P0-7C evidence, but distinct-signal qualification remains incomplete. L4 has a simple baseline rather than a proven optimizer. L1 limitations remain active dependencies; L3 controls and L5 realism must not be weakened to accelerate discovery or pool construction.
+L2 has one research anchor but no independent confirmation and no demonstrated second orthogonal member. L4 has a validated research baseline rather than a proven optimizer. L1 PIT, survivorship, tradability, and historical-universe limits remain active dependencies; L3 controls and L5 realism must not be weakened to accelerate P0-7E or holdout consumption.
 
 ## Flow
 

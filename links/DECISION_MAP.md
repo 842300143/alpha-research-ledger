@@ -14,9 +14,12 @@ This map connects active research decisions to the phases and artifacts they gov
 | ADR-0008 Top-20 Equal Weight Baseline V1 | Accepted | Portfolio comparisons and P0-7D constructor | P0-7C portfolio report |
 | ADR-0009 Qualify Pool Before Broad Search | Accepted | P0-7D sequencing and zero-new-search rule | P0-7C pool qualification and audit |
 | ADR-0010 Seal 2026 During Generation-2 | Accepted | P0-7D, P0-7E, and future holdout access | P0-7C checkpoint and leakage/holdout audit |
+| ADR-0011 ElasticNet as Research Anchor | Accepted | Anchor claims and P0-7E comparison policy | P0-7D pool, qualification, and Validator artifacts |
+| ADR-0012 Generation 2 Mechanism/Orthogonality | Accepted | P0-7E seven-configuration budget and promotion gates | P0-7D redundancy, Formula-span, and forward-addition evidence |
+| ADR-0013 Last Major Iteration Before Holdout | Accepted | Post-P0-7E stop rule and holdout-decision sequencing | Cumulative search and P0-7D selection accounting |
 
 ## Current decision path
 
-`P0_7C_PASS_WITH_WARNINGS` -> ADR-0008 / ADR-0009 / ADR-0010 -> `P0_7D_ALPHA_POOL_QUALIFICATION_V1` -> bounded Generation-2 design or justified deferment.
+`P0_7C_PASS_WITH_WARNINGS` -> `P0_7D_PASS_WITH_WARNINGS` -> ADR-0011 / ADR-0012 / ADR-0013 -> `P0_7E_ALPHA_RESEARCH_V2` -> final-pool freeze -> protected-holdout adequacy/go-no-go.
 
 No decision in this map authorizes protected-holdout access, RD-Agent/LLM use, payment, broker binding, trading, or production deployment.

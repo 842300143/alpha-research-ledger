@@ -13,11 +13,14 @@ Produce diverse, economically plausible candidate signals for controlled evaluat
 
 ## Current priorities
 
-- Qualify the exact P0-7C survivors before generating additional candidates.
-- Treat Liquidity, Reversal, and Volatility as priority mechanisms, not proven Alphas.
-- Decompose ElasticNet's selective incremental value before allocating budget to more complex models.
-- Keep LightGBM and broad parameter search at zero budget until a specific incremental hypothesis is predeclared.
+- Use `P07C_ML_ENET_A010_L50` as a research anchor, not an independently confirmed Alpha.
+- Run exactly three P0-7E Formula candidates: signed abnormal turnover, medium reversal excluding the most recent five sessions, and one very-short-reversal x abnormal-turnover interaction.
+- Test LowVol through fixed robustness views rather than another window search.
+- Decompose the anchor with coefficient stability, family exposure, four ablations, and Formula-span residual information; do not tune `alpha` or `l1_ratio`.
+- Keep LightGBM, deep models, Size, Value, Quality, and broad parameter search at zero P0-7E budget.
 
 ## Entry criteria for evaluation
 
 A candidate needs an ID, economic intuition, signal definition, expected direction, horizon, required data, confounders, and falsification criteria. Discovery does not confer acceptance.
+
+P0-7E is the last major discovery iteration on 2019-2025. Later work must use the frozen final pool and a separate protected-holdout decision or introduce materially new external evidence; disappointing results do not reopen Generation N.

@@ -1,7 +1,7 @@
 # P0_7D_ALPHA_POOL_QUALIFICATION_V1
 
 - Task ID: `P0_7D_ALPHA_POOL_QUALIFICATION_V1`
-- Status: `DESIGN_READY` / `NOT_YET_EXECUTED`
+- Status: `COMPLETE` / `P0_7D_PASS_WITH_WARNINGS`
 - Intended execution repository: `D:\alpha-factory`
 - Research repository: `D:\alpha-research-ledger`
 - Evidence classification: design is `DOCUMENTED`; reused P0-7C results are `EMPIRICAL_RESEARCH_ONLY`; any P0-7D pool result remains research-only and selection-contaminated until separately tested
@@ -310,8 +310,29 @@ Stop fail-closed if a source commit or hash mismatches, the input list is not ex
 
 Do not repair data, replace a candidate, alter a threshold, access either protected holdout, call RD-Agent/LLMs, buy data, bind a broker, trade, or make a production claim under this task.
 
-## 19. Execution readiness
+## 19. Execution result
 
-Design readiness: `YES`.
+Alpha Factory executed the frozen design without adding a predictive configuration. The exact 17 survivors were reproduced on a 78,091-row all-candidate matched panel, all 136 pairs and 45 ML Formula-span held-out reconstructions were evaluated, and deterministic de-duplication left 10 candidates. One forward pass accepted only `P07C_ML_ENET_A010_L50`; nine additions were rejected. The singleton anchor was retained in the one reverse leave-one-out decision.
 
-Execution readiness requires a new Alpha Factory controller directive that persists this exact scope and creates the pre-execution P0-7D manifest. This ledger commit alone does not authorize execution.
+`ALPHA_POOL_V1` therefore contains one **research-only anchor**, not an independently confirmed or production-proven Alpha. Its matched-panel evidence is:
+
+- fold RankIC `0.0802 / 0.0955 / 0.1675 / 0.0951 / 0.1337`;
+- mean RankIC `0.1144`, with 5/5 positive folds;
+- Formula-relative incremental RankIC `+0.0165`;
+- frozen-cost net return `1.0098` and 2x-cost net return `0.9369`;
+- maximum drawdown `-14.58%`;
+- 60/20 decay ratio `1.4253`, classified as not decaying;
+- material singleton contribution under leave-one-out.
+
+Seven candidates were redundant family variants. Three ElasticNet variants showed Formula-relative increments; the other six ML candidates, including every LightGBM candidate, failed incremental classification. The maximum prior DSR probability remains `0.4228853062141328`. Qualification reused selected OOS evidence and is not independent confirmation. The 2026 holdout remained unaccessed and unconsumed.
+
+## 20. Execution trace
+
+- Protocol commit: `76568528ed1a7c70d6b0a93b76924d7cb943dc94`.
+- Result commit: `a5c3d5b75b0fe2ac17bb7a37a7ba516f71bd1f63`.
+- Completion checkpoint: `cb3f4fe1e87f6a3e49bd8d59d3d8a76f19a4f8e0`.
+- Result payload hash: `d06b21fe5bcea2b394be0d6b7a09006a2518aaf37d04933631b4a5b49fbcb360`.
+- Matched-panel hash: `68f1aee1a3f099f0167392bc4cbc3f5ab9b6494bca98170b54e4e46516c22538`.
+- Reports: `reports/P0_7D_ALPHA_POOL_QUALIFICATION_REPORT.md`; `reports/P0_7D_CHECKPOINT.json`; redundancy, Formula-span, multiple-testing, and Generation-2 handoff reports.
+- Results: `research/alpha_pool_v1/results/RESULT_BUNDLE.json`; `ALPHA_POOL_V1.json`; `QUALIFICATION_TABLE.json`; `REDUNDANCY_TABLE.json`; `ML_FORMULA_SPAN.json`.
+- Validator: 16 PASS / 4 UNKNOWN / 0 FAIL; repository tests 107/107.

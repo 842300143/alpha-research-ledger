@@ -20,4 +20,4 @@ Portfolio construction remains a weak layer. P0-7C found that top-20 equal weigh
 
 Prefer diversified contributions from low-correlated signals. Explicitly record cases where individually predictive signals become redundant or destructive in combination.
 
-P0-7D uses equal-weight combinations of within-date percentile-ranked scores and one fixed top-20 equal-weight constructor. It searches neither pool weights nor constructor settings.
+P0-7D used equal-weight combinations of within-date percentile-ranked scores and retained a singleton anchor. P0-7E keeps top-20 equal weight as Portfolio Baseline V1 and permits one `15/25` membership-buffer challenger that changes only holding hysteresis while preserving equal weights, the score, rebalance interval, costs, and execution rules. Seven evaluation slots are reserved before results; no alternate buffer or optimizer is allowed.

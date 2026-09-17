@@ -2,36 +2,39 @@
 
 ## Controller direction
 
-`P0_7D_ALPHA_POOL_QUALIFICATION_V1`
+`P0_7E_ALPHA_RESEARCH_V2`
 
 Status: `DESIGN_READY` / `NOT_YET_EXECUTED`
 
-The exact execution specification is `tasks/planned/P0_7D_ALPHA_POOL_QUALIFICATION_V1.md`. A later controller may direct Alpha Factory to activate that design. This ledger commit records governance and does not execute qualification or authorize protected-holdout access.
+The exact execution specification is `tasks/planned/P0_7E_ALPHA_RESEARCH_V2.md`. A later controller may direct Alpha Factory to activate that design. This ledger commit records governance and does not execute research or authorize protected-holdout access.
 
 ## Required activation gates
 
-- Verify Alpha Factory commits `95dc8e3c5b895fe7bf47135536e0ed4843b73471`, `a881bd956c70088100f85999e7f0f4f965777a25`, and `7e13a5129abfd5c0c4a56d37c1b1cd9c63a73138` in one linear ancestry chain.
-- Bind `FREE_DAILY_V1` hash `5edea16aa003a37d4b71609ed8108ec77ae9f483fe918f54abc221316b57a8b5`, P0-7C result-bundle hash `30f0879579906af2d341a9053f9090b19616fbd3facd7415461b5ae247329444`, and pool-audit hash `9121c1984a237f7555171fea15bca882febfc4284e26a44c1527456ab4878f62`.
-- Freeze the exact 17-candidate input list and verify each record is `OOS_SURVIVED` with all five folds in the immutable P0-7C registry.
-- Create a P0-7D execution manifest before qualification and prove that every loaded or reproduced score and outcome ends no later than 2025-12-31.
-- Reproduce the frozen P0-7C score/result identities before computing any new qualification diagnostic; deny on any mismatch.
-- Freeze output schemas, metric definitions, pairwise thresholds, ordering, forward-addition rules, and leave-one-out rules exactly as specified.
+- Verify Alpha Factory commits `76568528ed1a7c70d6b0a93b76924d7cb943dc94`, `a5c3d5b75b0fe2ac17bb7a37a7ba516f71bd1f63`, and `cb3f4fe1e87f6a3e49bd8d59d3d8a76f19a4f8e0` in one linear ancestry chain.
+- Bind the exact dataset, subset, split, feature, cost, P0-7C result, P0-7D result, and matched-panel hashes in the task specification.
+- Reproduce the exact P0-7D anchor and pool payload before any P0-7E result.
+- Freeze code, configuration, registry, formulas, seven configurations, 35 fold attempts, robustness views, orthogonality rules, ordering, constructor, thresholds, and output schemas before results.
+- Create a deny-before-load audit proving all materialized research data end no later than 2025-12-31.
 
 ## Bounds
 
-- Input candidates: exactly 17; substitutions and regeneration are forbidden.
-- New predictive configurations, features, targets, horizons, parameters, seeds, or models: `0`.
-- Pairwise redundancy assessments: exactly 136 unordered pairs.
-- ML formula-span diagnostics: at most 9 frozen ML candidates across five leave-one-fold-out score-reconstruction checks each; these are explanatory, not predictive-return experiments.
-- Pool construction: one fixed ordering, one forward pass of at most 17 additions, and one reverse-order leave-one-out pass of at most 17 removals.
-- Pool weights: equal weights over within-date percentile-ranked scores; no weighting search.
-- Portfolio constructor: top-20 equal weight only; no constructor comparison.
+- New Formula candidates: exactly 3.
+- ElasticNet family ablations: exactly 4; no hyperparameter change.
+- Total new predictive configurations: exactly 7.
+- Fold attempts: exactly 35; failures consume budget; no recycling.
+- LowVol: 45 fixed robustness cells; no new window or formula.
+- LightGBM, deep models, Size, Value, Quality, RD-Agent/LLM, paid data: zero budget.
+- Portfolio: Top-20 equal weight baseline plus one `15/25` equal-weight membership-buffer challenger; seven reserved evaluations.
 - Protected 2026 holdout access: `0`.
 
 ## Required output
 
-Produce `ALPHA_POOL_V1`, including a justified empty pool if no candidate passes. Retain every negative addition, redundancy edge, rejected candidate, and selection-degree count. Produce bounded Generation-2 research questions, not experiments.
+Produce a fully accounted P0-7E result, one final research-only pool freeze (which may remain the singleton anchor), a complete negative-evidence ledger, and a protected-holdout adequacy/go-no-go handoff without accessing the holdout.
+
+## Post-task stop rule
+
+P0-7E is the last major candidate-generation iteration on 2019-2025. After it closes, freeze the final pool and decide separately whether the partial 2026 holdout is adequate for one confirmatory run. If it is not adequate, leave it sealed and defer. Do not start open-ended P0-7F research on the same years.
 
 ## If activation or integrity gates fail
 
-Stop with the exact failed gate. Do not repair, substitute, rerun, broaden the candidate set, alter thresholds, or access the protected holdout under P0-7D.
+Stop with the exact failed gate. Repair only the named integrity defect under the unchanged preregistration. Do not substitute candidates, change formulas or thresholds, broaden the budget, or access 2026.
