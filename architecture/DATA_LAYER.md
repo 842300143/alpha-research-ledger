@@ -15,7 +15,7 @@ Provide multi-year, historical-universe-aware research data with explicit point-
 
 ## Current work
 
-`P0_6E_FREE_DATA_EXPANSION_V1` is the active Alpha Factory execution task. Its commits, reports, artifacts, and resulting dataset identifiers must be linked after completion.
+`P0_6E_FREE_DATA_EXPANSION_V1` completed as `P0_6E_PASS_WITH_WARNINGS`. `FREE_DAILY_V1` is sufficient for a bounded next research iteration under its feature-readiness contract, but remains non-PIT and not production-ready. Exact commits, reports, artifacts, dataset identity, and limitations are recorded in `links/` and the completed task record.
 
 ## Boundary
 

@@ -19,8 +19,9 @@ Evidence note: phase names and sequence below are `DOCUMENTED` by the bootstrap 
 | 13 | RD-Agent installation | Installed the RD-Agent environment. | `UNKNOWN / TO_BACKFILL` |
 | 14 | RD-Agent LLM pilot | Paused for credentials under `FREE FIRST`. | `UNKNOWN / TO_BACKFILL` |
 | 15 | Autonomous Workflow V3 | Advanced the autonomous workflow design. | `UNKNOWN / TO_BACKFILL` |
-| 16 | Free Data Expansion V1 | Current execution task: `P0_6E_FREE_DATA_EXPANSION_V1`. | `ACTIVE`; commits/reports `UNKNOWN / TO_BACKFILL` |
+| 16 | Free Data Expansion V1 | Completed a 5,587,828-row, 3,207-security, 1,870-session research dataset with zero hard quality failures and explicit feature-readiness limits. | `P0_6E_PASS_WITH_WARNINGS`; result `69be29e41ddfdf815685f64d697465032c4a9891`; checkpoint `52c6a7eb506bb8848f1a643c469978d28804738c` |
+| 17 | Long-Horizon Alpha Research V1 design | Designed five annual walk-forward OOS folds, a protected 2026 holdout, bounded Formula/ML/Portfolio tracks, and the first Alpha Pool schema. No experiment was run. | Ledger task `P0_7C_LONG_HORIZON_ALPHA_RESEARCH_V1`; `DESIGN_READY` / `NOT_YET_EXECUTED` |
 
 ## Protected Blind
 
-P0-7B protected Blind is `APPROVED_BUT_DEFERRED`. It remains conceptually unconsumed: `BLIND_CONSUMED = FALSE`.
+The old 2024-12-27 through 2025-03-31 P0-7B protected Blind is `SUPERSEDED_UNCONSUMED` under ADR-0007. It was never executed and remains historical evidence: `BLIND_CONSUMED = FALSE`. The P0-7C design instead reserves 2026-01-05 through 2026-09-15 as a new protected recent holdout.

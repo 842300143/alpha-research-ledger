@@ -19,4 +19,4 @@ Use development and validation evidence before protected Blind. Freeze candidate
 
 ## Protected Blind
 
-Current status: `APPROVED_BUT_DEFERRED`; `BLIND_CONSUMED = FALSE`. This bootstrap neither accesses nor changes it.
+The old P0-7B Blind is `SUPERSEDED_UNCONSUMED` under ADR-0007; `BLIND_CONSUMED = FALSE`. Preserve it but never execute it. P0-7C ordinary research uses five annual walk-forward OOS folds through 2025 and excludes a new protected 2026 holdout from all candidate selection.
