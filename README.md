@@ -38,5 +38,7 @@ Every material experiment must be traceable backward to why it exists and forwar
 - Build a pool of weak, predictive, stable, low-correlated, post-cost usable signals rather than search for one magic strategy.
 - Follow `FREE FIRST`: pay only when the free research path exposes a specific, valuable bottleneck.
 - Treat protected Blind evaluation as a controlled, non-repeatable resource.
+- Execute the P0-8 Factor Zoo program as a canonical factor-space and structure-discovery effort, not a highest-return search.
+- Keep the 2026 protected holdout sealed through the P0-8 research sequence.
 
 Start with [state/CURRENT.md](state/CURRENT.md), [state/NEXT.md](state/NEXT.md), and [state/RESEARCH_PRINCIPLES.md](state/RESEARCH_PRINCIPLES.md).

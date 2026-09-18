@@ -17,9 +17,10 @@ This map connects active research decisions to the phases and artifacts they gov
 | ADR-0011 ElasticNet as Research Anchor | Accepted | Anchor claims and P0-7E comparison policy | P0-7D pool, qualification, and Validator artifacts |
 | ADR-0012 Generation 2 Mechanism/Orthogonality | Accepted | P0-7E seven-configuration budget and promotion gates | P0-7D redundancy, Formula-span, and forward-addition evidence |
 | ADR-0013 Last Major Iteration Before Holdout | Accepted | Post-P0-7E stop rule and holdout-decision sequencing | Cumulative search and P0-7D selection accounting |
+| ADR-0014 Generation-2 Factor Zoo Research Policy | Accepted | P0-8 canonical factor-space program; scoped interpretation of ADR-0013 | P0-7E completion, FREE_DAILY_V1 capability, P0-8 charter and registry |
 
 ## Current decision path
 
-`P0_7C_PASS_WITH_WARNINGS` -> `P0_7D_PASS_WITH_WARNINGS` -> ADR-0011 / ADR-0012 / ADR-0013 -> `P0_7E_ALPHA_RESEARCH_V2` -> final-pool freeze -> protected-holdout adequacy/go-no-go.
+`P0_7C_PASS_WITH_WARNINGS` -> `P0_7D_PASS_WITH_WARNINGS` -> `P0_7E_PASS_WITH_WARNINGS` -> ADR-0014 -> `P0_8A_FACTOR_ZOO_BUILD_V1` -> P0-8B evaluation -> P0-8C Factor Map -> bounded P0-8D interactions -> P0-8E/P0-8F structured selection -> P0-8G final research freeze -> separate protected-holdout adequacy/go-no-go.
 
 No decision in this map authorizes protected-holdout access, RD-Agent/LLM use, payment, broker binding, trading, or production deployment.

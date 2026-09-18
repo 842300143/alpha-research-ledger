@@ -23,4 +23,10 @@ Produce diverse, economically plausible candidate signals for controlled evaluat
 
 A candidate needs an ID, economic intuition, signal definition, expected direction, horizon, required data, confounders, and falsification criteria. Discovery does not confer acceptance.
 
-P0-7E is the last major discovery iteration on 2019-2025. Later work must use the frozen final pool and a separate protected-holdout decision or introduce materially new external evidence; disappointing results do not reopen Generation N.
+P0-7E was the last major **Generation-1** discovery iteration on 2019-2025. ADR-0014 does not reopen or tune P0-7E; it authorizes a materially different Generation-2 canonical factor-space program with preregistered definitions, budgets, factor structure, and cumulative selection accounting. P0-8 results remain selection-contaminated research evidence and do not authorize protected-holdout access.
+
+## P0-8 discovery sequence
+
+`taxonomy -> canonical definitions -> no-result implementation freeze -> atomic evaluation -> factor map/archetypes -> limited hypothesis-led interactions -> Alpha Pool V2 -> sparse simple model`.
+
+The 103-definition design contains 99 atomic/transformed factors and four conditional prototypes. Parameter variants are explicitly grouped and counted. Size, Value, Quality, industry, text/event, order-book, and deep/RL directions have zero current budget.

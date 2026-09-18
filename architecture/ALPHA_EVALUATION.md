@@ -27,4 +27,10 @@ P0-7D qualified the exact 17 P0-7C survivors and produced a one-member research-
 
 P0-7E requires every new candidate to pass standalone stability, anchor-relative residual RankIC, correlation and overlap limits, matched post-cost incremental contribution, regime, drawdown, turnover, and 2x-cost gates. One deterministic order and one reverse leave-one-out pass produce the final pool. The cumulative search history is never reset.
 
-After P0-7E, evaluation freezes one final pool and moves to a separate protected-holdout adequacy/go-no-go decision. No P0-7E result can authorize 2026 access.
+ADR-0013 originally directed the post-P0-7E state to a separate protected-holdout adequacy/go-no-go decision. ADR-0014 preserves the frozen pool and holdout boundary while permitting a materially different, preregistered P0-8 factor-space program. No P0-7E or P0-8 result can authorize 2026 access.
+
+## P0-8 evaluation and structure
+
+P0-8 separates atomic evidence from structure and model combination. P0-8B evaluates frozen atomic/transformed definitions on 2021-2023 using common preprocessing, global BH-FDR over a shared empirical permutation null, stability, decay, missingness, cost, and regime diagnostics. P0-8C then builds a multiplex Factor Graph from signal correlation, daily IC-series correlation, Top-20 overlap, and cross-fitted residual information.
+
+Only after clusters and representatives are frozen may P0-8D register at most 12 mechanism-led interactions. The 2024-2025 tranche is opened once in P0-8E as `INTERNAL_REUSE_VALIDATION`; those years were already used in Generation 1 and do not become independent confirmation. The 2026 holdout remains sealed through P0-8G.

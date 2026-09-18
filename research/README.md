@@ -30,3 +30,7 @@ Every important experiment must answer both:
 2. What decision did its evidence change?
 
 Use the templates in `templates/`. Preserve negative results and never convert a paper or vendor claim into an empirical result.
+
+## Factor Zoo V1
+
+The Generation-2 canonical factor-space design lives in `research/factor-zoo/`. Start with `FACTOR_ZOO_RESEARCH_CHARTER.md`, `FACTOR_TAXONOMY_V1.md`, and `FACTOR_REGISTRY_V1.md`. The registry is design-draft evidence until P0-8A binds implementation and hashes; it contains no predictive result.

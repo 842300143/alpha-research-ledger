@@ -20,3 +20,7 @@ Provide multi-year, historical-universe-aware research data with explicit point-
 ## Boundary
 
 Raw market data and large generated datasets belong outside ordinary Git history and must not be copied into this ledger.
+
+## P0-8 field contract
+
+P0-8 is restricted to actual daily price, bar, activity, turnover, status, provenance, and partial adjustment-factor fields recorded by `FREE_DAILY_V1`. Adjusted-price factors operate only on the frozen action-aware subset. Equal-weight market and breadth series are limited derived composites, not an external certified index. Industry and daily market-cap history are absent, so industry/Size neutralization is unavailable. The Factor Zoo may not approximate unavailable fundamentals with price or turnover proxies.

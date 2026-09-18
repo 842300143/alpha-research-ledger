@@ -1,7 +1,9 @@
-# P0_7E_ALPHA_RESEARCH_V2
+# P0_7E_ALPHA_RESEARCH_V2 — Historical Design Specification
+
+> Status update (2026-09-18): executed and complete as `P0_7E_PASS_WITH_WARNINGS`. The authoritative completed record is `tasks/completed/P0_7E_ALPHA_RESEARCH_V2.md`. This original design is retained here for exact historical traceability and is no longer a planned task.
 
 - Task ID: `P0_7E_ALPHA_RESEARCH_V2`
-- Status: `DESIGN_READY` / `NOT_YET_EXECUTED`
+- Status: `HISTORICAL_DESIGN_EXECUTED` / authoritative result in `tasks/completed/P0_7E_ALPHA_RESEARCH_V2.md`
 - Intended execution repository: `D:\alpha-factory`
 - Research repository: `D:\alpha-research-ledger`
 - Positioning: `MECHANISM_REFINEMENT_AND_ORTHOGONAL_ALPHA_DISCOVERY`

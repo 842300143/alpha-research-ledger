@@ -1,51 +1,53 @@
 # Current State
 
-Last updated: 2026-09-17
+Last updated: 2026-09-18
 
 | Field | Value |
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `P0_7D_ALPHA_POOL_QUALIFICATION_V1` / `P0_7D_PASS_WITH_WARNINGS` |
-| Current research policy | `FREE FIRST` |
+| Last completed execution task | `P0_7E_ALPHA_RESEARCH_V2` / `P0_7E_PASS_WITH_WARNINGS` |
+| Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
+| Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
 | Old P0-7B Blind | `SUPERSEDED_UNCONSUMED` under ADR-0007 |
-| Protected 2026 holdout | `UNACCESSED / UNCONSUMED` |
-| Research anchor / `ALPHA_POOL_V1` | `P07C_ML_ENET_A010_L50` / one research-only member |
-| Next research design | `P0_7E_ALPHA_RESEARCH_V2` / `DESIGN_READY` / `NOT_YET_EXECUTED` |
-| P0-7E budget | 7 predictive configurations / 35 fold attempts / no recycling |
-| Post-P0-7E rule | freeze one final pool, then protected-holdout adequacy/go-no-go; no open-ended P0-7F on 2019-2025 |
+| Protected 2026 holdout | `SEALED / UNACCESSED / UNCONSUMED` |
+| Generation-1 research anchor / strict pool | `P07C_ML_ENET_A010_L50` / one research-only member |
+| Final Generation-1 constructor | `TOP20_EQUAL_WEIGHT` |
+| P0-8 design | 103 definitions / 89 concepts / 89 parameterization groups |
+| P0-8A | `DESIGN_READY` / `NOT_YET_EXECUTED` / no-result implementation and freeze |
+
+## Generation-1 close
+
+P0-7E completed all seven configurations and 35 fold attempts, 45 LowVol robustness cells, four ablations, Formula-span diagnostics, deterministic selection, and portfolio slots. All three new Formula candidates passed standalone evidence and failed the full anchor-relative incremental gate. No candidate was promoted. The buffer challenger was not promoted. The final strict pool and constructor remained unchanged.
+
+Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts, plus P0-7D's 136 pair decisions, 45 Formula-span checks, deterministic ordering, forward-addition, and leave-one-out choices. The 2019-2025 sample is heavily selection-contaminated.
+
+## P0-8 design state
+
+- Registry: `research/factor-zoo/FACTOR_REGISTRY_V1.json` / `DRAFT_DESIGN`.
+- Definitions: 99 atomic/transformed candidates for P0-8B plus four conditional prototypes reserved for P0-8D.
+- Included space: canonical daily price, range, volume, amount, turnover, market-relative, and conditional price-volume constructs.
+- Excluded space: Size, Value, Quality, industry, text/event, order book/tick, authoritative limits, and other unavailable inputs.
+- Definition freeze: `NO`; P0-8A must bind implementation/code/config/card hashes after no-label correctness tests.
+- Predictive execution in this ledger session: `NONE`.
 
 ## Architecture health
 
-- L1 Data: `FREE_DAILY_V1` supports bounded research; full PIT, survivorship, authoritative tradability, and historical-delisted completeness remain unknown.
-- L2 Alpha Discovery: the problem is now independent information relative to the ElasticNet anchor, not another broad survivor. P0-7E allows three mechanism-driven Formula candidates and no model sweep.
-- L3 Alpha Evaluation: P0-7D established one research-only member on reused selected OOS evidence. Independent confirmation remains absent; the 2026 holdout is sealed.
-- L4 Portfolio: Top-20 equal weight remains Portfolio Baseline V1. P0-7E allows one equal-weight membership-buffer challenger only.
-- L5 Execution: costs, slippage, lots, and fills remain synthetic research assumptions. Production and real-trading readiness remain `NO`.
-
-## P0-7D empirical result
-
-- 17 frozen P0-7C survivors, zero new predictive experiments.
-- 78,091 matched rows, 1,112 dates, 72 symbols, five folds, and 60 non-overlapping observations.
-- 136 pair assessments, 16 redundancy edges, seven redundant variants, and 10 candidates after deterministic de-duplication.
-- One accepted anchor and nine rejected additions; one retained singleton leave-one-out decision.
-- Final `ALPHA_POOL_V1`: `P07C_ML_ENET_A010_L50` only.
-- Anchor fold RankIC: `0.0802 / 0.0955 / 0.1675 / 0.0951 / 0.1337`; mean `0.1144`; 5/5 positive.
-- Formula-relative incremental RankIC: `+0.0165`; frozen-cost net `1.0098`; 2x-cost net `0.9369`; MDD `-14.58%`; decay ratio `1.4253`.
-- Three ElasticNet variants had independent Formula-relative increments. Ridge and all LightGBM variants failed incremental classification.
-- Maximum prior DSR probability remains `0.4228853062141328`; PBO remains `NOT_JUSTIFIED`.
-- Validator 16 PASS / 4 UNKNOWN / 0 FAIL; repository tests 107/107.
-- Protected holdout accessed `FALSE`; consumed `FALSE`.
+- L1 Data: `FREE_DAILY_V1` supports bounded factor research on the action-aware subset. Full PIT, survivorship, authoritative tradability, corporate actions, and historical-delisted completeness remain unresolved.
+- L2 Alpha Discovery: a structured 103-definition factor taxonomy now replaces ad hoc neighboring-candidate search. Definitions remain draft until P0-8A.
+- L3 Alpha Evaluation: P0-8B/P0-8C protocols separate atomic evaluation from factor structure, add global FDR and shared empirical-null controls, and retain failures.
+- L4 Portfolio: Top-20 equal weight remains the research diagnostic baseline. No new constructor is authorized.
+- L5 Execution: costs and fills remain synthetic. Production and real-trading readiness remain `NO`.
 
 ## Evidence status
 
-- `EMPIRICAL`: P0-7D protocol `76568528ed1a7c70d6b0a93b76924d7cb943dc94`, result `a5c3d5b75b0fe2ac17bb7a37a7ba516f71bd1f63`, and checkpoint `cb3f4fe1e87f6a3e49bd8d59d3d8a76f19a4f8e0` form a verified linear chain.
-- `EMPIRICAL_RESEARCH_ONLY_SELECTION_CONTAMINATED`: the anchor and one-member pool were selected using reused 2021-2025 OOS evidence.
-- `DOCUMENTED`: P0-7E is mechanism/orthogonality-first, LightGBM stays frozen, and P0-7E is the last major 2019-2025 iteration before a holdout decision.
+- `EMPIRICAL`: committed FREE_DAILY_V1 schema/coverage/quality evidence and P0-7A through P0-7E result artifacts.
+- `EMPIRICAL_RESEARCH_ONLY_SELECTION_CONTAMINATED`: all 2019-2025 factor/pool evidence.
+- `DOCUMENTED`: P0-8 charter, taxonomy, registry design, preprocessing, timing, evaluation, structure, interaction, multiple-testing, and roadmap.
 - `SYNTHETIC`: transaction costs, slippage, adjusted-unit execution, and portfolio fills.
-- `UNKNOWN`: independent-holdout performance, full PIT/survivorship, empirical market impact, capacity, production, and real-trading behavior.
+- `UNKNOWN`: independent-holdout performance, full PIT/survivorship, empirical impact, capacity, production, and real-trading behavior.
 
 ## Current boundary
 
-P0-7E may execute only after an exact Alpha Factory controller directive and pre-result manifest. It permits exactly three new Formula candidates, four fixed anchor family ablations, fixed LowVol robustness views, deterministic anchor-relative qualification, and one portfolio challenger. It may not access 2026, tune ElasticNet, run LightGBM/deep models, add Size/Value/Quality, use RD-Agent/LLMs, buy data, trade, or make production claims.
+Only `P0_8A_FACTOR_ZOO_BUILD_V1` is design-ready. It may implement and correctness-test the factor library in Alpha Factory after an exact controller directive. It may not compute labels, IC, rankings, coverage comparisons for 2026, portfolios, or predictive results. P0-8B and later stages are not authorized. Alpha Factory remained read-only during this ledger design session.

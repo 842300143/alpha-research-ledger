@@ -2,39 +2,38 @@
 
 ## Controller direction
 
-`P0_7E_ALPHA_RESEARCH_V2`
+`P0_8A_FACTOR_ZOO_BUILD_V1`
 
 Status: `DESIGN_READY` / `NOT_YET_EXECUTED`
 
-The exact execution specification is `tasks/planned/P0_7E_ALPHA_RESEARCH_V2.md`. A later controller may direct Alpha Factory to activate that design. This ledger commit records governance and does not execute research or authorize protected-holdout access.
+The exact specification is `tasks/planned/P0_8A_FACTOR_ZOO_BUILD_V1.md`. A later controller may direct Alpha Factory to implement and freeze the library. This ledger commit performs design only and authorizes neither predictive evaluation nor protected-holdout access.
 
 ## Required activation gates
 
-- Verify Alpha Factory commits `76568528ed1a7c70d6b0a93b76924d7cb943dc94`, `a5c3d5b75b0fe2ac17bb7a37a7ba516f71bd1f63`, and `cb3f4fe1e87f6a3e49bd8d59d3d8a76f19a4f8e0` in one linear ancestry chain.
-- Bind the exact dataset, subset, split, feature, cost, P0-7C result, P0-7D result, and matched-panel hashes in the task specification.
-- Reproduce the exact P0-7D anchor and pool payload before any P0-7E result.
-- Freeze code, configuration, registry, formulas, seven configurations, 35 fold attempts, robustness views, orthogonality rules, ordering, constructor, thresholds, and output schemas before results.
-- Create a deny-before-load audit proving all materialized research data end no later than 2025-12-31.
+- Verify Alpha Factory P0-7E result commit `27793d974110758ccf83848aed3d9354341b7e3f` and completion checkpoint `c37ab3caf0c50c100906503d17d05fd5f78e2e24` in linear ancestry.
+- Bind `FREE_DAILY_V1` dataset hash `5edea16aa003a37d4b71609ed8108ec77ae9f483fe918f54abc221316b57a8b5` and actual price/adjustment schemas.
+- Bind exact ledger registry, cards, timing, preprocessing, taxonomy, ADR-0014, and P0-8A spec hashes.
+- Create a pre-build manifest before implementation/correctness evidence.
+- Predicate-deny all rows after 2025-12-31 before conversion or materialization.
 
-## Bounds
+## P0-8A bounds
 
-- New Formula candidates: exactly 3.
-- ElasticNet family ablations: exactly 4; no hyperparameter change.
-- Total new predictive configurations: exactly 7.
-- Fold attempts: exactly 35; failures consume budget; no recycling.
-- LowVol: 45 fixed robustness cells; no new window or formula.
-- LightGBM, deep models, Size, Value, Quality, RD-Agent/LLM, paid data: zero budget.
-- Portfolio: Top-20 equal weight baseline plus one `15/25` equal-weight membership-buffer challenger; seven reserved evaluations.
-- Protected 2026 holdout access: `0`.
+- Draft definitions: 103.
+- P0-8B atomic/transformed definitions: 99 maximum after implementation gates.
+- P0-8D conditional prototypes: four; compile/schema only in P0-8A.
+- Predictive configurations, labels, IC, rankings, portfolios, outcomes: zero.
+- Allowed evidence: synthetic/unit/property tests, schema inspection, and bounded through-2025 no-value PASS/FAIL spot checks.
+- Size, Value, Quality, industry, paid data, RD-Agent/LLM, broker, trading: zero budget.
+- Protected 2026 access: zero.
 
 ## Required output
 
-Produce a fully accounted P0-7E result, one final research-only pool freeze (which may remain the singleton anchor), a complete negative-evidence ledger, and a protected-holdout adequacy/go-no-go handoff without accessing the holdout.
+Produce immutable code/config/registry/card hashes, field and parameterization audits, timing/preprocessing audits, correctness tests, a no-results audit, a holdout deny-before-load audit, complete per-factor build states, Independent Validator output, and `P0_8A_FACTOR_ZOO_FREEZE.json`.
 
-## Post-task stop rule
+## Stop rule
 
-P0-7E is the last major candidate-generation iteration on 2019-2025. After it closes, freeze the final pool and decide separately whether the partial 2026 holdout is adequate for one confirmatory run. If it is not adequate, leave it sealed and defer. Do not start open-ended P0-7F research on the same years.
+Do not start P0-8B in the same task. If a definition cannot be implemented from actual fields, retain it as `DENIED_NOT_READY` and do not substitute a new factor to preserve the count. If an integrity gate fails, repair only the named implementation defect under unchanged research definitions.
 
-## If activation or integrity gates fail
+## After P0-8A
 
-Stop with the exact failed gate. Repair only the named integrity defect under the unchanged preregistration. Do not substitute candidates, change formulas or thresholds, broaden the budget, or access 2026.
+Prepare a separate exact P0-8B directive binding the frozen eligible factor IDs and a maximum 297 Stage-1 factor-fold attempts. P0-8B uses 2021-2023 only. P0-8C freezes factor structure before P0-8D interactions and before the one-pass 2024-2025 internal reuse-validation tranche.
