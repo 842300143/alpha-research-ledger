@@ -14,3 +14,7 @@ Read `research/combinatorial-discovery/{CAD_RESEARCH_CONTRACT_V1,EVIDENCE_AUDIT,
 Required conclusion: engine readiness, pilot status, evidence level, budget used and stop reason, all proposal/duplicate/invalid/failed counts, matched delta and cost checks, source hashes, local commit SHAs, and honest remote sync state. Zero candidates is acceptable. On technical failure, retain attempts and close with a safe resumable status; do not silently repair an exposed run.
 
 For a later worker, `ALPHA-CAD-RESUME` with both repository paths means recover the five execution state files, run `worker_start`, verify the manifest and ledger, inherit the cumulative budget and queue position, and perform only the recorded next action.
+
+## Completion (2026-09-20)
+
+Status: `EXPLORATORY_PILOT_COMPLETE`; evidence level: `SELECTION_CONTAMINATED_RESEARCH`. The fixed 160-proposal queue processed 131 expressions plus three controls; the predeclared stagnation rule stopped the run after 622.125 active seconds. Three cost-rechecked exploratory candidates were archived, with no confirmatory claim. Execution pre-result code commit: `a9f1dbc74471df1d55fce06588d169dc14973940`; manifest commit: `419dc0e0b35454934cef23f4c0536c10b6405d16`; result work commit: `df327bfbd653864368a817eef7e64006b6575022`. Source and result details are in `research/combinatorial-discovery/CAD01_RESULT_SUMMARY.md` and the execution report. This task is complete and no resume of its search is authorized.

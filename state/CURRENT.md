@@ -6,7 +6,7 @@ Last updated: 2026-09-20
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `P0_8C_FACTOR_STRUCTURE_V1` / `P0_8C_PASS_WITH_WARNINGS` (Alpha Factory checkpoint) |
+| Last completed execution task | `CAD01_COMBINATORIAL_DISCOVERY_PILOT_V1` / `EXPLORATORY_PILOT_COMPLETE` (Alpha Factory checkpoint and result) |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -52,10 +52,10 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 - `SYNTHETIC`: transaction costs, slippage, adjusted-unit execution, and portfolio fills.
 - `UNKNOWN`: independent-holdout performance, full PIT/survivorship, empirical impact, capacity, production, and real-trading behavior.
 
-## Current boundary
+## Prior P0-8 boundary
 
-P0-8D V1 was not activated. The proposed V2 execution spec has an empty executable population and is `NOT_READY_NO_EXECUTABLE_CARDS`. Alpha Factory remains direction-only. A new controller decision is required before any further hypothesis design, P0-8D execution, P0-8E, or protected data access. The 2026 holdout remains `SEALED / UNACCESSED / UNCONSUMED`.
+P0-8D V1 was not activated. The proposed V2 execution spec has an empty executable population and is `NOT_READY_NO_EXECUTABLE_CARDS`. A new controller decision is required before any P0-8D execution, P0-8E, or protected data access. The 2026 holdout remains `SEALED / UNACCESSED / UNCONSUMED`.
 
-## CAD01 active transition (2026-09-20)
+## CAD01 completed exploratory pilot (2026-09-20)
 
-The controller directive `EXECUTE_CAD01_COMBINATORIAL_DISCOVERY_PILOT_V1` supersedes the earlier direction wait only for a separate exploratory CAD01 namespace under ADR-0016. The old P0-8D/P0-8D0 state remains 12 investigated, zero executable, and unrun. Alpha Factory completed the finite metadata repair at local commit `f4295368e43f6396a64307d4888140752a71ae56`; normal `worker_start` returned `READY:YES`. CAD01 pre-result code, manifest, real pilot, and final status are still pending. The 2024–2025 interval and 2026 holdout remain closed.
+The controller directive `EXECUTE_CAD01_COMBINATORIAL_DISCOVERY_PILOT_V1` superseded the earlier direction wait only for a separate exploratory CAD01 namespace under ADR-0016. The old P0-8D/P0-8D0 state remains 12 investigated, zero executable, and unrun. Alpha Factory completed the finite metadata repair at `f4295368e43f6396a64307d4888140752a71ae56`, froze code and policy at `a9f1dbc74471df1d55fce06588d169dc14973940`, committed the exact manifest at `419dc0e0b35454934cef23f4c0536c10b6405d16`, and committed the real result at `df327bfbd653864368a817eef7e64006b6575022`. Normal `worker_start` after metadata repair returned `READY:YES`. The pilot evaluated 131 expressions plus three fixed controls, stopped under `STAGNATION_RULE`, and archived three `SELECTION_CONTAMINATED_RESEARCH` candidates after modeled cost checks. The 2024–2025 interval and 2026 holdout remain closed. See `research/combinatorial-discovery/CAD01_RESULT_SUMMARY.md` and the exact execution artifacts.
