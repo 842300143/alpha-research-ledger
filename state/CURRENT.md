@@ -1,12 +1,12 @@
 # Current State
 
-Last updated: 2026-09-18
+Last updated: 2026-09-20
 
 | Field | Value |
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `P0_7E_ALPHA_RESEARCH_V2` / `P0_7E_PASS_WITH_WARNINGS` |
+| Last completed execution task | `P0_8C_FACTOR_STRUCTURE_V1` / `P0_8C_PASS_WITH_WARNINGS` (Alpha Factory checkpoint) |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -15,7 +15,10 @@ Last updated: 2026-09-18
 | Generation-1 research anchor / strict pool | `P07C_ML_ENET_A010_L50` / one research-only member |
 | Final Generation-1 constructor | `TOP20_EQUAL_WEIGHT` |
 | P0-8 design | 103 definitions / 89 concepts / 89 parameterization groups |
-| P0-8A | `DESIGN_READY` / `NOT_YET_EXECUTED` / no-result implementation and freeze |
+| P0-8A/B/C | `COMPLETE_WITH_WARNINGS`; 103 built, 97 evaluated, 27 survivors, 16 archetypes, 12 frozen pair leads |
+| P0-8D V1 | `UNEXECUTED`; zero executable definitions; activation exception `CLOSED_ABORTED` |
+| P0-8D0 | `COMPLETE_WITH_ZERO_EXECUTABLE_INTERACTIONS`; 12 investigated, 4 simple combinations, 2 rejected for no mechanism, 6 deferred |
+| P0-8D execution V2 | `NOT_READY_NO_EXECUTABLE_CARDS`; no activation directive |
 
 ## Generation-1 close
 
@@ -25,12 +28,13 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 
 ## P0-8 design state
 
-- Registry: `research/factor-zoo/FACTOR_REGISTRY_V1.json` / `DRAFT_DESIGN`.
-- Definitions: 99 atomic/transformed candidates for P0-8B plus four conditional prototypes reserved for P0-8D.
+- Alpha Factory P0-8A froze 103 implemented/schema-checked definitions. P0-8B excluded two structural zero-sum definitions without replacement and evaluated 97 atomic/transformed factors across 291 WF1-WF3 attempts.
+- P0-8C evaluated 351 pair relationships, froze 16 archetypes and a 12-pair P0-8D investigation handoff; its handoff hash is `2502ac870d0767db8839665ca664251e7652b7e493e7c6986719f993486ccb4c`.
+- P0-8D0 used only frozen structure evidence and factor cards to investigate the 12 pairs. No candidate-specific form, direction, and feasible state rule passed the complete design gate; zero Interaction Cards were issued.
 - Included space: canonical daily price, range, volume, amount, turnover, market-relative, and conditional price-volume constructs.
 - Excluded space: Size, Value, Quality, industry, text/event, order book/tick, authoritative limits, and other unavailable inputs.
-- Definition freeze: `NO`; P0-8A must bind implementation/code/config/card hashes after no-label correctness tests.
-- Predictive execution in this ledger session: `NONE`.
+- Definition freeze: `YES` for P0-8A atomic factors; `NO` for any P0-8D interaction hypothesis.
+- New predictive execution in this Ledger task: `NONE`.
 
 ## Architecture health
 
@@ -50,4 +54,4 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 
 ## Current boundary
 
-Only `P0_8A_FACTOR_ZOO_BUILD_V1` is design-ready. It may implement and correctness-test the factor library in Alpha Factory after an exact controller directive. It may not compute labels, IC, rankings, coverage comparisons for 2026, portfolios, or predictive results. P0-8B and later stages are not authorized. Alpha Factory remained read-only during this ledger design session.
+P0-8D V1 was not activated. The proposed V2 execution spec has an empty executable population and is `NOT_READY_NO_EXECUTABLE_CARDS`. Alpha Factory remains direction-only. A new controller decision is required before any further hypothesis design, P0-8D execution, P0-8E, or protected data access. The 2026 holdout remains `SEALED / UNACCESSED / UNCONSUMED`.

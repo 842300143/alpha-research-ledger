@@ -1,0 +1,24 @@
+{
+  "schema_version": "P0_8D0_PAIR_DISPOSITION_V1",
+  "task_id": "P0_8D0_INTERACTION_HYPOTHESIS_DESIGN_V1",
+  "source_handoff_hash": "2502ac870d0767db8839665ca664251e7652b7e493e7c6986719f993486ccb4c",
+  "source_result_bundle_hash": "995efd57f952c9ddfb5527f992225764bb7ce22814f7a28478492f66e04e9c12",
+  "evidence_classification": "DOCUMENTED_DESIGN_ON_SELECTION_CONTAMINATED_EMPIRICAL_STRUCTURE",
+  "predictive_attempts": 0,
+  "executable_count": 0,
+  "replacement_count": 0,
+  "pairs": [
+    {"slot": 1, "factor_a": "FZ1_TOV_001", "factor_b": "FZ1_TOV_004", "classification": "SIMPLE_COMBINATION_ONLY", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "Attention level and trend have no recorded effect-modifier direction."},
+    {"slot": 2, "factor_a": "FZ1_TOV_001", "factor_b": "FZ1_TOV_003", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "RANK_COMBINATION"], "reason": "Neglect versus attention-shock interpretations imply opposed directions; state breadth is uncertain."},
+    {"slot": 3, "factor_a": "FZ1_LIQ_005", "factor_b": "FZ1_TOV_004", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "A_RESIDUAL_CONDITIONED_BY_B", "RANK_COMBINATION"], "reason": "Liquidity-stability effect modifier is plausible but form, sign, and feasible state rule are not unique."},
+    {"slot": 4, "factor_a": "FZ1_LIQ_005", "factor_b": "FZ1_TOV_003", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "A_RESIDUAL_CONDITIONED_BY_B", "RANK_COMBINATION"], "reason": "Abrupt attention contraction can mean calm or distress; no unique signed state."},
+    {"slot": 5, "factor_a": "FZ1_LIQ_005", "factor_b": "FZ1_TOV_001", "classification": "SIMPLE_COMBINATION_ONLY", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "Stable amount and low turnover are complementary descriptors without a documented change in A effect."},
+    {"slot": 6, "factor_a": "FZ1_TOV_003", "factor_b": "FZ1_TOV_004", "classification": "SIMPLE_COMBINATION_ONLY", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "Short and long attention horizons may add information; no unique effect-modifier sign."},
+    {"slot": 7, "factor_a": "FZ1_BAR_004", "factor_b": "FZ1_TOV_004", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "A_RESIDUAL_CONDITIONED_BY_B", "RANK_COMBINATION"], "reason": "Upper rejection can be more or less meaningful as attention rises; opposing state directions remain plausible."},
+    {"slot": 8, "factor_a": "FZ1_DST_001", "factor_b": "FZ1_GAP_004", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "A_RESIDUAL_CONDITIONED_BY_B", "RANK_COMBINATION"], "reason": "Lottery-demand versus overnight-information reading does not select orientation, sign, or state."},
+    {"slot": 9, "factor_a": "FZ1_COR_004", "factor_b": "FZ1_TOV_003", "classification": "NO_DEFENSIBLE_HYPOTHESIS", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "No recorded mechanism ties a turnover shock to the effect of breadth sensitivity."},
+    {"slot": 10, "factor_a": "FZ1_DST_001", "factor_b": "FZ1_MKT_002", "classification": "SIMPLE_COMBINATION_ONLY", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "Skewness and beta are two defensive risk descriptors without a documented interaction."},
+    {"slot": 11, "factor_a": "FZ1_BAR_004", "factor_b": "FZ1_MKT_002", "classification": "NO_DEFENSIBLE_HYPOTHESIS", "forms_considered": ["RANK_COMBINATION", "A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B"], "reason": "Upper rejection and long-run beta have no recorded signed state mechanism."},
+    {"slot": 12, "factor_a": "FZ1_DST_001", "factor_b": "FZ1_TOV_004", "classification": "AMBIGUOUS_DEFERRED", "forms_considered": ["A_CONDITIONAL_ON_B_STATE", "NUMERIC_A_X_B", "A_RESIDUAL_CONDITIONED_BY_B", "RANK_COMBINATION"], "reason": "Attention change can signal lottery chase or distress; direction and threshold are unresolved."}
+  ]
+}

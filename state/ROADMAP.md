@@ -11,13 +11,14 @@ Generation-1 predictive accounting closed at 34 configurations and 170 fold atte
 
 ## Generation 2 — P0-8
 
-1. `P0_8A_FACTOR_ZOO_BUILD_V1`: `DESIGN_READY`; implement, correctness-test, and freeze 103 definitions without predictive results.
-2. `P0_8B_FACTOR_EVALUATION`: evaluate up to 99 frozen atomic/transformed definitions on WF1-WF3 with global FDR and retained failures.
-3. `P0_8C_FACTOR_STRUCTURE`: signal correlation, IC-series correlation, Top-20 overlap, clustering, residual information, archetypes, and Factor Graph.
-4. `P0_8D_FACTOR_INTERACTION`: at most 12 hypothesis-led archetype interactions; no brute-force pairs.
-5. `P0_8E_ALPHA_POOL_V2`: open WF4-WF5 once for frozen representatives/interactions and qualify incremental dimensions against the Generation-1 anchor.
-6. `P0_8F_SPARSE_MULTIFACTOR`: structured representatives into at most one Ridge and two ElasticNet configurations; LightGBM/deep/RL budget zero.
-7. `P0_8G_FINAL_RESEARCH_POOL_V2`: freeze the next final research entity and prepare a separate holdout-decision handoff.
+1. `P0_8A_FACTOR_ZOO_BUILD_V1`: completed with warnings; froze 103 definitions without predictive results.
+2. `P0_8B_FACTOR_EVALUATION_V1`: completed with warnings; evaluated 97 eligible factors across 291 WF1-WF3 attempts, retaining failures.
+3. `P0_8C_FACTOR_STRUCTURE_V1`: completed with warnings; 27 survivors, 351 pairs, 16 archetypes, 12 frozen interaction-investigation leads.
+4. `P0_8D0_INTERACTION_HYPOTHESIS_DESIGN_V1`: completed as no-result design; investigated 12 exact pairs, froze zero executable Interaction Cards, retained all rejection/deferral reasons.
+5. `P0_8D_FACTOR_INTERACTION_EXECUTION_V2`: `NOT_READY_NO_EXECUTABLE_CARDS`; no activation or predictive attempts. Requires a later, separately reviewed nonempty preregistration and exact controller directive.
+6. `P0_8E_ALPHA_POOL_V2`: not authorized; possible one-pass WF4-WF5 internal reuse validation only after a separate controller decision on frozen inputs.
+7. `P0_8F_SPARSE_MULTIFACTOR`: later structured-representative comparison, at most one Ridge and two ElasticNet configurations; LightGBM/deep/RL budget zero.
+8. `P0_8G_FINAL_RESEARCH_POOL_V2`: later final research entity and separate holdout-decision handoff.
 
 Detailed stage contracts are in `research/factor-zoo/P0_8_ROADMAP.md`.
 
