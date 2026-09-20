@@ -1,0 +1,12 @@
+# CAD01 prior art map
+
+Classification: `DOCUMENTED` from author papers and publisher pages; this is a bounded method comparison, not a replication or a claim that CAD01's OII is a standard new statistic.
+
+| Work | Existing method and object | CAD01 borrowing | Boundary |
+| --- | --- | --- | --- |
+| [AutoAlpha (2020)](https://arxiv.org/abs/2002.08245) | Hierarchical evolutionary search for formulaic alpha factors and a downstream learning-to-rank ensemble. | Typed formula grammar, canonicalization, search accounting, and a downstream prediction check. | CAD01 freezes a small set of 16 existing signals and uses deterministic bounded enumeration, not the paper's evolutionary optimizer or full raw-data factor space. |
+| [Yu et al., synergistic alpha collections (2023)](https://arxiv.org/abs/2306.12964) | Reinforcement learning generates formulaic factors using a downstream combination model's contribution as feedback. | Assess incremental contribution relative to a fixed baseline instead of judging an expression alone. | No RL, policy training, or result-driven expansion in this pilot. The paired delta is model-relative and does not establish causal synergy. |
+| [Feng, Giglio, Xiu, *Journal of Finance* (2020)](https://onlinelibrary.wiley.com/doi/10.1111/jofi.12883) | Tests whether a new factor contributes to **asset pricing** beyond a high-dimensional set while accounting for selection mistakes. | Ask whether a candidate adds information after incumbents and keep model-selection limits explicit. | Their asset-pricing factor test is not directly a test of daily stock cross-sectional prediction features or implementable net returns; CAD01 does not import its inference guarantee. |
+| [Cawley and Talbot, *JMLR* (2010)](https://www.jmlr.org/papers/v11/cawley10a.html) | Shows that optimizing a noisy model-selection criterion can overfit it and bias later performance evaluation. | Freeze budgets, log every attempted choice, run a complete synthetic null search, and call all current results exploratory. | A diagnostic bootstrap on the already searched data cannot erase adaptive-selection bias or create independent confirmation. |
+
+The research target is representation improvement for a specified model, sample, training protocol, and cost diagnostic. An expression does not add new raw external fields. Its benefit, if any, is conditional on that model and historical panel.

@@ -39,3 +39,7 @@ Use stable identifiers and record, where applicable:
 - report and artifact paths
 - dataset ID and immutable hash
 - result classification and review outcome
+
+## CAD01 resume
+
+For `ALPHA-CAD-RESUME` with both repository paths, read `state/CURRENT.md`, `state/NEXT.md`, ADR-0016, the CAD01 contract and task, then recover Alpha Factory through its five state files and `python scripts/worker_start.py`. Verify its pre-execution manifest, append-only attempt and cost ledgers, cumulative budget, checkpoint, and exact next queue position. Never infer progress from chat memory, reset a consumed slot, or open the locked 2024–2025 or 2026 intervals.

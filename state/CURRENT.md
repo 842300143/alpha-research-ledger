@@ -55,3 +55,7 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 ## Current boundary
 
 P0-8D V1 was not activated. The proposed V2 execution spec has an empty executable population and is `NOT_READY_NO_EXECUTABLE_CARDS`. Alpha Factory remains direction-only. A new controller decision is required before any further hypothesis design, P0-8D execution, P0-8E, or protected data access. The 2026 holdout remains `SEALED / UNACCESSED / UNCONSUMED`.
+
+## CAD01 active transition (2026-09-20)
+
+The controller directive `EXECUTE_CAD01_COMBINATORIAL_DISCOVERY_PILOT_V1` supersedes the earlier direction wait only for a separate exploratory CAD01 namespace under ADR-0016. The old P0-8D/P0-8D0 state remains 12 investigated, zero executable, and unrun. Alpha Factory completed the finite metadata repair at local commit `f4295368e43f6396a64307d4888140752a71ae56`; normal `worker_start` returned `READY:YES`. CAD01 pre-result code, manifest, real pilot, and final status are still pending. The 2024–2025 interval and 2026 holdout remain closed.
