@@ -1,0 +1,15 @@
+# CAD02 Synergy Calibration and System Freeze V1 — Research Ledger summary
+
+Task: `CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` under ADR-0017. Alpha Factory result work commit: `844f682373b40d6d1519838f0d90eb0dbb449ecc`. Exact report: `D:/alpha-factory/reports/CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_REPORT.md`; formal checkpoint: `D:/alpha-factory/state/checkpoints/CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1.json`.
+
+## Evidence and result
+
+`EMPIRICAL_RESEARCH_ONLY_SELECTION_CONTAMINATED`: Exactly the eight predeclared systems were compared on the reused CAD01 72-security 2019–2023 population. All 24 logical system-folds and three S0 reproduction folds completed. Common evaluation rows were 15,154 / 15,289 / 15,506 in WF1/WF2/WF3. All seven augmented systems passed the frozen system gate. `S123`, baseline Ridge plus all three exact archived CAD01 ASTs, led the primary mean paired daily delta RankIC at `0.031643` versus S0 and was technically frozen as a **provisional research system**. Its three annual fold deltas were positive. These data also selected the CAD01 candidates, so this is not independent confirmation.
+
+`SYNTHETIC`: The modeled 1x/2x cumulative net return differences versus S0 were +12.48 and +11.68 percentage points for S123 under the frozen Top-20, 20-session, RMB 1m vector. Costs, fills, turnover and drawdown are research assumptions, not live execution evidence. The separate N0/N1 predictive-search calibration generated approximate null labels and no price path or cost result.
+
+Eight N0 and seven N1 calibration runs completed. N1 seed `320207` stopped during its 98th proposal and is retained as `TIME_LIMIT_INCOMPLETE`; four later seeds did not begin. The ledger recorded `23,897.160` seconds against the `21,600`-second six-hour cap, an overrun of `2,297.160` seconds. This protocol deviation is explicit. Seven of eight complete N0 maxima and none of seven complete N1 maxima reached CAD01's observed search maximum `0.01263434`. The diagnostic resolutions are only 1/8 and 1/7, and the approximating generators disagree. No 5% significance, market-null p-value, universal false-positive rate, or confirmation claim is supported. The incomplete seed cannot be restarted or replaced under the exhausted protocol.
+
+`DOCUMENTED`: The fixed-system integrity and calibration ledger/hash audit is in `D:/alpha-factory/research/cad02/REVIEWER_REPORT.md` and the read-only validator. The validator reports `PASS_WITH_WARNINGS` because of `WARN_OVERRUN_STOPPED_NO_RETRY`. The exact selected system, inputs, ASTs, training/scaling, costs, timing and hashes are in `D:/alpha-factory/research/cad02/SYSTEM_FREEZE.json`.
+
+`UNKNOWN`: Independent later-year validity, PIT and survivorship completeness, capacity, actual fills, and production behavior. `2024–2025 accessed: NO`; `2026 accessed: NO`; `TEST_AUTHORIZED: NO`. The future one-system S123-versus-S0 plan is a draft only and requires a new exact controller directive plus a pre-access manifest. The old P0-8D/P0-8D0 12 investigated pairs remain zero executable and unrun.
