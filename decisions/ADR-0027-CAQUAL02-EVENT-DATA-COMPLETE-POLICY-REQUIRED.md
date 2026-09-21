@@ -3,7 +3,7 @@
 - Date: 2026-09-21
 - Status: Accepted / Complete
 - Controller directive: `ALPHA-CAQUAL02-UNRESOLVED-EVENT-CLOSURE-V1`
-- Alpha Factory result work commit: `5b056c223b6789f62f3da4b43c88d35841606bdd`
+- Alpha Factory result work commit: `9bad5b9a5023e2d71f318a933a5d519ad4e8e0fc`
 - Research Ledger activation commit: `06387d5` (full hash retained in Git history)
 
 ## Decision
@@ -19,7 +19,7 @@ Official issuer, SZSE, and CNINFO filings document suspension and rights terms. 
 ## Data and execution consequences
 
 - `PAID_DATA_REQUIRED=NO`; no exact paid-data gap remains.
-- `HOLDING_PATH_EVENT_COVERAGE_GATE` returns `EXACT`, `UNRESOLVED`, or `NON_IMPACTING` for a concrete holding path.
+- `HOLDING_PATH_EVENT_COVERAGE_GATE` returns `EXACT_FOR_THIS_REPLAY`, `UNRESOLVED_EVENT_INTERSECTS_HOLDING`, or `NON_IMPACTING_FOR_THIS_REPLAY` for a concrete holding path.
 - Unknown/contradictory held events and unbound elective decisions block exact NAV and orders.
 - The event ledger is historical accounting only and may not enter predictive features, signals, or forecasts.
 - CAQUAL01 evidence remains frozen; CAQUAL02 is additive.

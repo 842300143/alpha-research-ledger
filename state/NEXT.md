@@ -2,7 +2,7 @@
 
 ## CAQUAL02 result
 
-CAQUAL02 is complete at Alpha Factory work commit `5b056c223b6789f62f3da4b43c88d35841606bdd`. Event data are complete for all 287 material changes, paid data is not required, and the generic capability is `EVENT_DATA_COMPLETE_POLICY_REQUIRED`. Any successor must bind real account elections rather than select or infer a profitable rights policy.
+CAQUAL02 is complete at Alpha Factory work commit `9bad5b9a5023e2d71f318a933a5d519ad4e8e0fc`. Event data are complete for all 287 material changes, paid data is not required, and the generic capability is `EVENT_DATA_COMPLETE_POLICY_REQUIRED`. Any successor must bind real account elections rather than select or infer a profitable rights policy.
 
 ## CAQUAL01 result
 

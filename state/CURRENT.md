@@ -2,7 +2,7 @@
 
 ## CAQUAL02 complete (2026-09-21)
 
-ADR-0027 accepts the isolated additive seven-event closure at Alpha Factory work commit `5b056c223b6789f62f3da4b43c88d35841606bdd`. Four `000029.SZ` gaps are evidence-backed non-entitlement reference-price oscillations during suspension and ledger no-ops. The `000049.SZ`, `000065.SZ`, and `000088.SZ` gaps are fully documented elective rights offerings. CAQUAL01's other 280 matches remain intact: event-data coverage is 287/287, with zero unknown or contradictory rows and no paid-data gap. `CORPORATE_ACTION_LEDGER_CAPABILITY=EVENT_DATA_COMPLETE_POLICY_REQUIRED`; a concrete holding path needs its actual `PARTICIPATE`/`DECLINE` decisions before it can be exact. No full-market scan, later market row, predictive/return research, REQUAL01 mutation, credential/payment, broker action, shared-main change, or branch merge occurred.
+ADR-0027 accepts the isolated additive seven-event closure at Alpha Factory work commit `9bad5b9a5023e2d71f318a933a5d519ad4e8e0fc`. Four `000029.SZ` gaps are evidence-backed non-entitlement reference-price oscillations during suspension and ledger no-ops. The `000049.SZ`, `000065.SZ`, and `000088.SZ` gaps are fully documented elective rights offerings. CAQUAL01's other 280 matches remain intact: event-data coverage is 287/287, with zero unknown or contradictory rows and no paid-data gap. `CORPORATE_ACTION_LEDGER_CAPABILITY=EVENT_DATA_COMPLETE_POLICY_REQUIRED`; a concrete holding path needs its actual `PARTICIPATE`/`DECLINE` decisions before it can be exact. No full-market scan, later market row, predictive/return research, REQUAL01 mutation, credential/payment, broker action, shared-main change, or branch merge occurred.
 
 ## CAQUAL01 complete (2026-09-21)
 
