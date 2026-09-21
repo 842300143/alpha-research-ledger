@@ -1,12 +1,12 @@
 # Current State
 
-Last updated: 2026-09-20
+Last updated: 2026-09-21
 
 | Field | Value |
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` / `TECHNICAL_SYSTEM_FREEZE_WITH_INCOMPLETE_CALIBRATION` (Alpha Factory checkpoint and result) |
+| Last completed execution task | `CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` / `TECHNICAL_SYSTEM_FREEZE_WITH_INCOMPLETE_CALIBRATION`; MODEL01 active under ADR-0018 |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -63,3 +63,7 @@ The controller directive `EXECUTE_CAD01_COMBINATORIAL_DISCOVERY_PILOT_V1` supers
 ## CAD02 provisional system freeze (2026-09-20)
 
 Under ADR-0017, Alpha Factory evaluated eight fixed systems on CAD01-selected 2019–2023 data and technically froze S123, the 16-feature Ridge baseline plus all three archived CAD01 ASTs, as a provisional research system. The work commit is `844f682373b40d6d1519838f0d90eb0dbb449ecc`. A synthetic N0/N1 calibration completed 15 of 20 runs, retained one incomplete run, and exceeded the six-hour wall cap by 2,297.160 seconds; no remaining seed is authorized. The two approximate diagnostic generators disagree, so no confirmatory Alpha claim follows. See `research/combinatorial-discovery/CAD02_RESULT_SUMMARY.md` and the Alpha Factory report/checkpoint. The 2024–2025 test and 2026 protected interval remain closed pending a new exact controller directive and pre-access manifest.
+
+## MODEL01 pre-result authorization (2026-09-21)
+
+ADR-0018 authorizes a fixed five-family by two-representation model-capacity comparison on the CAD02-bound 2019–2023 panel. Alpha Factory `research/model01/PROTOCOL.md` and `CONFIG.json` define the exact ladder, 30 fold slots, model-selection premium, and successor hard-wall fix. No 2024–2025 or 2026 data access is authorized. CAD01 and CAD02 frozen evidence stays unchanged.

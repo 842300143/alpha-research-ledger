@@ -1,0 +1,5 @@
+# MODEL01 Model Capacity Bakeoff V1
+
+Directive `EXECUTE_MODEL01_MODEL_CAPACITY_BAKEOFF_V1` under ADR-0018. Execution repository `D:\alpha-factory`; Research Ledger `D:\alpha-research-ledger`. Bind the actual CAD02 freeze SHA-256 `b9b999327cedbddc18da568f1c2c7c3953a9e8c8bd50da0c59b8fcb859bac986`. Recover both repositories and Alpha Factory's five state files, CAD01/CAD02 formal reports and checkpoint, and frozen archive. Verify all hashes before accessing 2019–2023 labels.
+
+Execute only the pre-result frozen ten-system, thirty-fold MODEL01 matrix. Retain all attempts and failures, matched predictive and modeled cost metrics, train/eval time audit, model-selection bias accounting, independent validator, and a single provisional freeze or `NO_MODEL_UPGRADE` / `INCONCLUSIVE`. Preserve CAD02's calibration limitation and overrun. Do not access 2024–2025 or 2026, add factor expressions, rerun CAD01/CAD02, or open a future test. Finish through normal checkpoint, commits and `SAFE_TO_CLOSE=YES`.

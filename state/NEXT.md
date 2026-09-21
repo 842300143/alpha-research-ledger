@@ -1,5 +1,9 @@
 # Next Research Work
 
+## Active controller directive
+
+`MODEL01_MODEL_CAPACITY_BAKEOFF_V1` is authorized under ADR-0018 for a pre-registered 2019–2023 five-model, two-representation comparison. The 2024–2025 test and 2026 holdout remain closed. Await the Alpha Factory checkpoint and a separate later controller decision before any future test.
+
 ## Completed task
 
 `CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` is complete under ADR-0017 with a technically frozen S123 provisional research system and an incomplete synthetic calibration. The calibration exceeded its six-hour wall cap by 2,297.160 seconds, which is retained as a protocol deviation. The exact result, limits, and work commit are in `research/combinatorial-discovery/CAD02_RESULT_SUMMARY.md` and the Alpha Factory report/checkpoint. CAD01 remains complete and immutable. Old P0-8D/P0-8D0 remains 12 investigated, zero executable, unrun.
