@@ -17,4 +17,3 @@ On F0, ElasticNet improved mean paired RankIC versus Ridge F0 by 0.032065; GAM, 
 ElasticNet F1 had the highest mean RankIC, but its 0.003064 advantage over Ridge F1 did not exceed the pre-frozen >0.005 complexity premium. The selected system is `RIDGE_F1`, identical to CAD02 S123; disposition `COMPLETE_NO_MODEL_UPGRADE`. The selected system is `PROVISIONAL_MODEL_REPRESENTATION_SYSTEM_V1`, not confirmed Alpha. Costs are synthetic, the panel lacks full PIT and survivorship certification, and all results inherit CAD01/CAD02 selection contamination. Cross-model consistency is not independent confirmation.
 
 `CALIBRATION_EVIDENCE=LIMITED_DIAGNOSTIC`: 15 of 20 CAD02 runs complete, one incomplete, 2,297.160-second recorded wall overrun. No remaining seed was run. `2024_2025_ACCESSED=NO`; `2026_ACCESSED=NO`; `TEST_AUTHORIZED=NO`. The next step is controller direction, not test execution.
-
