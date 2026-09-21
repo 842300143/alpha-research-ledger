@@ -1,5 +1,9 @@
 # Next Research Work
 
+## Active EXPOSURE01 directive (2026-09-21)
+
+`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` is authorized under ADR-0019 and `tasks/active/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`. The former MODEL01 direction wait is superseded only for this bounded 2019–2023 exposure comparison. Alpha Factory start HEAD is `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`; the Ridge F1 freeze SHA-256 is `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. After this task, seek controller direction. Neither 2024–2025 nor 2026 test access is authorized.
+
 ## Active controller directive
 
 `MODEL01_MODEL_CAPACITY_BAKEOFF_V1` is complete under ADR-0018. The matching Alpha Factory next task is `GEN2_LOCKED_ONE_SYSTEM_TEST_DIRECTION`, a controller direction request only. Review the one frozen Ridge F1 versus Ridge F0 system, CAD02's incomplete calibration and overrun, accumulated model-selection bias, PIT/survivorship gaps and synthetic costs. A possible 2024–2025 test needs a separate exact directive and pre-access manifest. The 2026 holdout remains sealed.

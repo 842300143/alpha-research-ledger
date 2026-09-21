@@ -1,5 +1,12 @@
 # Project Timeline
 
+## Recent verified events
+
+| Date | Event | Exact evidence |
+| --- | --- | --- |
+| 2026-09-21 | MODEL01 completed `COMPLETE_NO_MODEL_UPGRADE`: Ridge F1/S123 retained; 10 systems/30 folds; 16 PASS/0 FAIL. | Alpha Factory result commit `7565127615202c3edbc6d43458ac941d7a217282`; `reports/MODEL01_MODEL_CAPACITY_BAKEOFF_V1.md`; freeze SHA-256 `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. |
+| 2026-09-21 | EXPOSURE01 bounded controller directive activated; result pending. | ADR-0019; `tasks/active/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`; execution start HEAD `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`. |
+
 Evidence note: phase names and sequence below are `DOCUMENTED` by the bootstrap controller directive. Exact dates, commits, reports, and empirical outcomes must be verified in `D:\alpha-factory`; unknown references are not inferred.
 
 | Order | Phase | Durable note | Alpha Factory evidence |

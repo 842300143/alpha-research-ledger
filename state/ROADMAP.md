@@ -1,5 +1,9 @@
 # Roadmap
 
+## Current bounded exposure research
+
+`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` is active under ADR-0019. It tests continuous-account terminal wealth for the frozen Ridge F1/S123 signal and cash choices on the 72-security 2019–2023 research subset. At most two gates, no new model and no later tranche. After its report and independent review, next step is controller direction, with no automatic test or production transition.
+
 ## Completed Generation 1
 
 1. `P0_6E_FREE_DATA_EXPANSION_V1`: `COMPLETE` / `P0_6E_PASS_WITH_WARNINGS`.

@@ -1,5 +1,7 @@
 # MODEL01 fixed model-capacity comparison
 
+**Later objective note (ADR-0019):** MODEL01's RankIC-based choice is complete and unchanged; it does not establish the tax-and-fee-adjusted terminal-wealth optimum. ElasticNet F0's prior modeled net outcome is approximately 0.000422 above Ridge F1 and is retained as an alternative clue only. EXPOSURE01 fixes Ridge F1/S123 and tests cash exposure on 2019–2023 under a separate objective. The 2024–2025 tranche was previously used in Generation-1 work, so no project-wide unseen-data claim is made.
+
 - Task: `MODEL01_MODEL_CAPACITY_BAKEOFF_V1`
 - Directive: `EXECUTE_MODEL01_MODEL_CAPACITY_BAKEOFF_V1`
 - Alpha Factory pre-result code commit: `89563d7470403827c2bb893f6ae09423f6d0e47a`
