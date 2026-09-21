@@ -1,8 +1,8 @@
 # Next Research Work
 
-## Active task
+## CAQUAL01 result
 
-`CAQUAL01_CORPORATE_ACTION_EVENT_QUALIFICATION_V1` is active under controller directive `ALPHA-CAQUAL01-CORPORATE-ACTION-EVENT-QUALIFICATION-V1`. Its exact scope and gates are in `tasks/planned/CAQUAL01_CORPORATE_ACTION_EVENT_QUALIFICATION_V1.md`. REQUAL01 may proceed separately but is not part of this worktree. EXPOSURE V2 and portfolio return evaluation remain blocked.
+CAQUAL01 is complete with `TOTAL_RETURN_APPROX_ONLY`: 280 of 287 material factor changes matched; seven remain unresolved across four symbols. Exact replay, EXPOSURE V2 and portfolio return evaluation remain blocked. Recommended next event-data work is a separately authorized, targeted four-symbol/seven-date cross-source check using existing Tushare permission if available, otherwise free issuer/SZSE/CNINFO announcements. Do not purchase data unless that bounded free path proves insufficient. REQUAL01 remains a separate direction.
 
 ## Current state
 
