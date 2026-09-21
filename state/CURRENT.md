@@ -1,5 +1,9 @@
 # Current State
 
+## CAQUAL01 active (2026-09-21)
+
+Controller directive `ALPHA-CAQUAL01-CORPORATE-ACTION-EVENT-QUALIFICATION-V1` authorizes the isolated, bounded qualification of BaoStock dividend events and adjustment factors for the frozen 72-security 2019-2023 replay. Execution base is `9ef1d605d132b550f43cdc75a309c20fe03dc4ef`; Ledger base is `1d49b4783edeb6d4454ef4fbf465fd99e34080fc`; both use isolated `codex/caqual01` worktrees. The task may qualify capability and contracts but may not run EXPOSURE V2, compare returns, open 2024-2025 or 2026 market rows, purchase data, or alter frozen upstream evidence.
+
 ## INTEGRATION01 complete (2026-09-21)
 
 Controller directive `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1` integrated PITPRICE01 correctness contracts with PIPELINE01 incremental runtime and PORTFOLIO01 sizing. Execution work commit `62daaa7319eb06de8333f150049377286450da36` was merged normally to master at `e4758907dd246e812a2e56f35ff41defc3c7f116`; the Research Ledger integration was merged normally to main at `5e8d4b48ff55c162d1f7ed248e5d2b86ea00214e`. Independent review passed with a source-drift cache warning; 57 owner tests passed. ADR-0024 records the accepted baseline; ADR-0021 and frozen PITPRICE01 evidence remain authoritative. `UPSTREAM_MODEL_INVARIANT=NO`. Old Ridge F1/S123 is a superseded research fixture pending REQUAL01; there is no current production champion. EXPOSURE01 V1 remains invalid for selection. Primary capital is RMB 50,000, scaling diagnostic RMB 1,000,000. Corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`; exact executable wealth and real-market portfolio evaluation await CAQUAL01. PIPELINE01 is `ENGINE_READY_WITH_PERF_WARNING` on synthetic evidence. The 2024–2025 and 2026 market intervals remained sealed for this task. No Alpha research, exposure replay or portfolio return evaluation occurred.

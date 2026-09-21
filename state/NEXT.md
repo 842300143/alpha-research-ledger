@@ -1,5 +1,9 @@
 # Next Research Work
 
+## Active task
+
+`CAQUAL01_CORPORATE_ACTION_EVENT_QUALIFICATION_V1` is active under controller directive `ALPHA-CAQUAL01-CORPORATE-ACTION-EVENT-QUALIFICATION-V1`. Its exact scope and gates are in `tasks/planned/CAQUAL01_CORPORATE_ACTION_EVENT_QUALIFICATION_V1.md`. REQUAL01 may proceed separately but is not part of this worktree. EXPOSURE V2 and portfolio return evaluation remain blocked.
+
 ## Current state
 
 INTEGRATION01 passed independent review and was merged normally to execution `master` and Research Ledger `main`. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
