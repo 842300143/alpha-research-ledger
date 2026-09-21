@@ -1,5 +1,9 @@
 # Next Research Work
 
+## Current direction after PITPRICE01
+
+Alpha Factory `PITPRICE01_UPSTREAM_REQUALIFICATION_DIRECTION` is `WAIT_FOR_CONTROLLER_DIRECTION`. ADR-0021 closed PITPRICE01 with `UPSTREAM_MODEL_INVARIANT=NO`; no EXPOSURE01 V2 manifest or replay was made. The controller may separately specify a bounded upstream requalification and dated corporate-action entitlement data path, or defer. No CAD/MODEL rerun, future-row access, new exposure policy, replay or trading is authorized by this direction task. The charter's 50k primary and 1m scaling diagnostic are frozen in the additive capital contract, not a replay authorization.
+
 ## EXPOSURE01 authorization history (2026-09-21)
 
 `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` was authorized under ADR-0019 and is archived at `tasks/completed/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`. The former MODEL01 direction wait was superseded only for this bounded 2019–2023 exposure comparison. Alpha Factory start HEAD was `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`; the Ridge F1 freeze SHA-256 is `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. Neither 2024–2025 nor 2026 test access was authorized.

@@ -1,5 +1,9 @@
 # Current State
 
+## PITPRICE01 completed at upstream hard gate (2026-09-21)
+
+ADR-0021 records `UPSTREAM_RESEARCH_REQUALIFICATION_REQUIRED` at Alpha Factory work commit `e622bae101329a4b4f365d3354ff11e115ccc046`. The capital audit found that the project charter's RMB 50,000 initial model was not propagated into EXPOSURE01 V1's explicit RMB 1m continuous account; `STATE_PROPAGATION_FAILURE` is primary. A bounded 2019–2023 causal-price comparison changed frozen Ridge F1 inputs and five of 36 fixed exposure-signal Top20 choices, so `UPSTREAM_MODEL_INVARIANT=NO`. No V2 replay or policy selection occurred. BaoStock price-return links do not supply exact cash/share entitlements. See `research/price-basis/PITPRICE01_RESULT_SUMMARY.md` and the exact Alpha Factory report/checkpoint. V1, CAD01/CAD02/MODEL01 remain frozen; 2024–2025 and 2026 market rows remain unopened by PITPRICE01. Next is controller direction on upstream requalification and event data.
+
 ## EXPOSURE01 controller authorization history
 
 The controller authorized `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` under ADR-0019 from Alpha Factory HEAD `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90` and Ledger HEAD `e335d575e39d9cfd561bfa131fb17f0a7f5ef0c8`. MODEL01 is complete and unchanged: Ridge F1/S123, 16 base plus C1/C2/C3, 10 systems and 30 folds, 16 validator PASS, zero FAIL. The >0.005 RankIC complexity premium retained Ridge despite ElasticNet F1 leading mean RankIC by 0.003064. ElasticNet F0's approximately 0.000422 higher modeled net outcome is only an alternate clue; it does not revise MODEL01 selection. EXPOSURE01's objective is full-calendar, after-cost compounded terminal wealth, with cash allowed. Two-month windows are diagnostics, not independent samples. Evidence remains selection-contaminated, non-PIT and synthetic for execution. CAD02's 15/20 calibration, one incomplete run and 2,297.160-second overrun remain unchanged. The 2024–2025 interval was used in Generation-1 research but is unopened by EXPOSURE01; 2026 remains sealed. No test or live-trading authorization.
@@ -14,7 +18,7 @@ Last updated: 2026-09-21
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` / `INCONCLUSIVE_CORRECTNESS_GATE` at Alpha Factory work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198` |
+| Last completed execution task | `PITPRICE01_ASOF_PRICE_BASIS_REPAIR_V1` / `UPSTREAM_RESEARCH_REQUALIFICATION_REQUIRED` at Alpha Factory work commit `e622bae101329a4b4f365d3354ff11e115ccc046` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |

@@ -1,0 +1,7 @@
+# PITPRICE01 price-basis result summary
+
+**Outcome: `UPSTREAM_RESEARCH_REQUALIFICATION_REQUIRED`; no EXPOSURE01 V2 replay.** See ADR-0021 and Alpha Factory work commit `e622bae101329a4b4f365d3354ff11e115ccc046`, report `reports/PITPRICE01_ASOF_PRICE_BASIS_REPAIR_V1.md`, bounded impact JSON `research/pitprice01/UPSTREAM_PRICE_BASIS_IMPACT.json`, independent review and stop validator.
+
+The charter's RMB 50,000 deployment-design initial capital was not propagated into EXPOSURE01 V1, which explicitly used the inherited RMB 1m research fixture. The new capital contract fixes 50k primary and 1m scaling diagnostic for any separately authorized future replay. FREE_DAILY_V1's active factors are BaoStock comparable-preclose-derived, not Tushare observations. A causal price contract/API was added without changing frozen results.
+
+On 87,408 bounded 2019–2023 rows, numerical price-basis changes propagated through frozen features/targets to Ridge scores and five of 36 fixed exposure-signal Top20 choices. `UPSTREAM_MODEL_INVARIANT=NO`, so the hard gate stopped before V2. BaoStock return links cannot reconstruct exact dividend/share/rights entitlements for a cash/lot ledger. No V1 result is rehabilitated, no 2024–2025 or 2026 market row was opened, and no broker action occurred. Evidence remains `EMPIRICAL_RESEARCH_ONLY_SELECTION_CONTAMINATED` for market comparisons, `DOCUMENTED` for provider/charter semantics, `SYNTHETIC` for the sentinel tests, and `UNKNOWN` for independent performance/PIT/production.
