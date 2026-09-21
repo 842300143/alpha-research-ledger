@@ -2,7 +2,7 @@
 
 - Status: `PASS_WITH_WARNINGS`
 - Evidence: `SELECTION_CONTAMINATED_RESEARCH`
-- Alpha Factory work commit: `9eb913aef4812cf6acb18e13ea66e947c16a427c`
+- Alpha Factory work commit: `9eb913ac4bff3739c063a9b3f782bf68c74b98f8`
 - Result hash: `bf8c5bdb58f90db49767458578670a42a66607287a911ff9f7dcfed32c29a3f2`
 - Dataset: `FREE_DAILY_PIT_V2`, hash `2a37246c2bfd33176384568dda2ea6bef85edb29900c3fbab80875fefde06383`
 - Scope: 87,408 rows, 72 symbols, `20190102..20231229`

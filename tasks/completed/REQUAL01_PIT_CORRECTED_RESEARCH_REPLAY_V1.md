@@ -3,7 +3,7 @@
 - Directive: `ALPHA-REQUAL01-PIT-CORRECTED-RESEARCH-REPLAY-V1`
 - Status: `COMPLETE / PASS_WITH_WARNINGS`
 - Execution repository: `D:\alpha-factory`
-- Execution work commit: `9eb913aef4812cf6acb18e13ea66e947c16a427c`
+- Execution work commit: `9eb913ac4bff3739c063a9b3f782bf68c74b98f8`
 - Result hash: `bf8c5bdb58f90db49767458578670a42a66607287a911ff9f7dcfed32c29a3f2`
 - Evidence ceiling: `SELECTION_CONTAMINATED_RESEARCH`
 
