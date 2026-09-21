@@ -2,7 +2,7 @@
 
 ## Current state
 
-INTEGRATION01 passed independent review and was merged normally to execution `master` and Research Ledger `main`. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
+`REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` is `ACTIVE` under ADR-0025 and exact controller directive `ALPHA-REQUAL01-PIT-CORRECTED-RESEARCH-REPLAY-V1`. PITPRICE01 remains semantic authority. Ridge F1/S123 is superseded pending the additive replay; EXPOSURE01 V1 remains invalid for selection. CAQUAL01 remains a separate future direction.
 
 ## Recommended parallel directions
 

@@ -1,5 +1,9 @@
 # Current State
 
+## REQUAL01 active (2026-09-21)
+
+ADR-0025 and controller directive `ALPHA-REQUAL01-PIT-CORRECTED-RESEARCH-REPLAY-V1` activate one additive PIT-corrected correctness replay in Alpha Factory. The task binds the frozen 97-factor WF1-WF3 population/rules, corrected structure, original CAD grammar/budgets/seeds and fixed MODEL01 roster. Historical results remain read-only and selection history is not reset. Interaction, Exposure, Portfolio sizing selection, 2024–2025 and 2026 access remain closed; CAQUAL01 is separate.
+
 ## INTEGRATION01 complete (2026-09-21)
 
 Controller directive `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1` integrated PITPRICE01 correctness contracts with PIPELINE01 incremental runtime and PORTFOLIO01 sizing. Execution work commit `62daaa7319eb06de8333f150049377286450da36` was merged normally to master at `e4758907dd246e812a2e56f35ff41defc3c7f116`; the Research Ledger integration was merged normally to main at `5e8d4b48ff55c162d1f7ed248e5d2b86ea00214e`. Independent review passed with a source-drift cache warning; 57 owner tests passed. ADR-0024 records the accepted baseline; ADR-0021 and frozen PITPRICE01 evidence remain authoritative. `UPSTREAM_MODEL_INVARIANT=NO`. Old Ridge F1/S123 is a superseded research fixture pending REQUAL01; there is no current production champion. EXPOSURE01 V1 remains invalid for selection. Primary capital is RMB 50,000, scaling diagnostic RMB 1,000,000. Corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`; exact executable wealth and real-market portfolio evaluation await CAQUAL01. PIPELINE01 is `ENGINE_READY_WITH_PERF_WARNING` on synthetic evidence. The 2024–2025 and 2026 market intervals remained sealed for this task. No Alpha research, exposure replay or portfolio return evaluation occurred.
