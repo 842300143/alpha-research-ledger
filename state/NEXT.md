@@ -2,7 +2,7 @@
 
 ## Active controller directive
 
-`MODEL01_MODEL_CAPACITY_BAKEOFF_V1` is authorized under ADR-0018 for a pre-registered 2019–2023 five-model, two-representation comparison. The 2024–2025 test and 2026 holdout remain closed. Await the Alpha Factory checkpoint and a separate later controller decision before any future test.
+`MODEL01_MODEL_CAPACITY_BAKEOFF_V1` is complete under ADR-0018. The matching Alpha Factory next task is `GEN2_LOCKED_ONE_SYSTEM_TEST_DIRECTION`, a controller direction request only. Review the one frozen Ridge F1 versus Ridge F0 system, CAD02's incomplete calibration and overrun, accumulated model-selection bias, PIT/survivorship gaps and synthetic costs. A possible 2024–2025 test needs a separate exact directive and pre-access manifest. The 2026 holdout remains sealed.
 
 ## Completed task
 

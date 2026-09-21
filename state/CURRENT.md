@@ -6,7 +6,7 @@ Last updated: 2026-09-21
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` / `TECHNICAL_SYSTEM_FREEZE_WITH_INCOMPLETE_CALIBRATION`; MODEL01 active under ADR-0018 |
+| Last completed execution task | `MODEL01_MODEL_CAPACITY_BAKEOFF_V1` / `COMPLETE_NO_MODEL_UPGRADE` at Alpha Factory work commit `7565127615202c3edbc6d43458ac941d7a217282` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -66,4 +66,4 @@ Under ADR-0017, Alpha Factory evaluated eight fixed systems on CAD01-selected 20
 
 ## MODEL01 pre-result authorization (2026-09-21)
 
-ADR-0018 authorizes a fixed five-family by two-representation model-capacity comparison on the CAD02-bound 2019–2023 panel. Alpha Factory `research/model01/PROTOCOL.md` and `CONFIG.json` define the exact ladder, 30 fold slots, model-selection premium, and successor hard-wall fix. No 2024–2025 or 2026 data access is authorized. CAD01 and CAD02 frozen evidence stays unchanged.
+ADR-0018 authorized a fixed five-family by two-representation model-capacity comparison on the CAD02-bound 2019–2023 panel. Alpha Factory completed all ten systems and 30 folds at work commit `7565127615202c3edbc6d43458ac941d7a217282`, with 16 PASS / 0 FAIL Independent Validator and no model upgrade. Ridge F1/CAD02 S123 remains the one provisional system. CAD01 and CAD02 frozen evidence stayed unchanged; successor hard-wall enforcement passed focused tests. No 2024–2025 or 2026 data was accessed by MODEL01, and no later test is authorized. See `research/model-capacity/MODEL01_RESULT_SUMMARY.md`.
