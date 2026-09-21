@@ -2,7 +2,7 @@
 
 ## Current state
 
-INTEGRATION01 passed independent review and is merged to execution `master`; the Research Ledger normal merge remains pending. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
+INTEGRATION01 passed independent review and was merged normally to execution `master` and Research Ledger `main`. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
 
 ## Recommended parallel directions
 

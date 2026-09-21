@@ -1,8 +1,8 @@
 # INTEGRATION01 PITPRICE / PIPELINE / PORTFOLIO V1
 
-Status: `REVIEWED_ENGINEERING_INTEGRATION`; execution merged, Research Ledger normal merge pending.
+Status: `COMPLETE`; execution and Research Ledger normal merges complete.
 
-Controller directive `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1` reconciled PITPRICE01 causal price and capital authority with the isolated PIPELINE01 incremental runtime and PORTFOLIO01 sizing engine. Alpha Factory work commit `62daaa7319eb06de8333f150049377286450da36` was merged normally to `master` as `e4758907dd246e812a2e56f35ff41defc3c7f116`.
+Controller directive `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1` reconciled PITPRICE01 causal price and capital authority with the isolated PIPELINE01 incremental runtime and PORTFOLIO01 sizing engine. Alpha Factory work commit `62daaa7319eb06de8333f150049377286450da36` was merged normally to `master` as `e4758907dd246e812a2e56f35ff41defc3c7f116`; the Research Ledger integration was merged normally to `main` as `5e8d4b48ff55c162d1f7ed248e5d2b86ea00214e`.
 
 The integrated runtime fails closed on missing or mismatched price and capital contracts, keeps raw execution price separate from as-of analytical price and realized target return, requires explicit primary or scaling-diagnostic capital, and exposes desired target shares without creating broker orders. Ridge F1/S123 is a superseded research fixture pending REQUAL01. Exact executable wealth and real-market portfolio evaluation remain blocked while account capability is `TOTAL_RETURN_APPROX_ONLY`, pending CAQUAL01.
 

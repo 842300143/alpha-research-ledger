@@ -1,11 +1,12 @@
 # ADR-0024: INTEGRATION01 unified PITPRICE / PIPELINE / PORTFOLIO baseline
 
-- Status: Reviewed engineering integration; execution merged, Ledger normal merge pending.
+- Status: Accepted; execution and Research Ledger normal merges complete.
 - Controller directive: `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1`.
 - Execution base: `37fd3ccfe00e9df9fafd40f139f6e2d1baa4f163`.
 - Ledger base: `e9dfeab1b95e3654eec72b9143f8414a78ee8090`.
 - Execution work commit: `62daaa7319eb06de8333f150049377286450da36`.
 - Execution normal merge commit: `e4758907dd246e812a2e56f35ff41defc3c7f116`.
+- Research Ledger normal merge commit: `5e8d4b48ff55c162d1f7ed248e5d2b86ea00214e`.
 - Formal execution report: `reports/INTEGRATION01_PITPRICE_PIPELINE_PORTFOLIO_V1.md`.
 - Formal execution checkpoint: `state/checkpoints/INTEGRATION01_PITPRICE_PIPELINE_PORTFOLIO_V1.json`.
 
