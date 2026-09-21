@@ -1,23 +1,23 @@
 # Next Research Work
 
-## CAQUAL02 active
+## CAQUAL02 result
 
-Execute `CAQUAL02_UNRESOLVED_EVENT_CLOSURE_V1` only in the isolated `codex/caqual02-unresolved-event-closure-v1` worktrees. Resolve or precisely retain the seven frozen CAQUAL01 gaps using issuer, SZSE, CNINFO or another authoritative issuer/exchange record; implement the automatic/elective ledger contracts and holding-path coverage gate; then publish the capability and paid-data decision. Do not merge shared main, touch REQUAL01, access 2024-2025/2026 market rows, or run predictive/return work.
+CAQUAL02 is complete at Alpha Factory work commit `5b056c223b6789f62f3da4b43c88d35841606bdd`. Event data are complete for all 287 material changes, paid data is not required, and the generic capability is `EVENT_DATA_COMPLETE_POLICY_REQUIRED`. Any successor must bind real account elections rather than select or infer a profitable rights policy.
 
 ## CAQUAL01 result
 
-CAQUAL01 is complete with `TOTAL_RETURN_APPROX_ONLY`: 280 of 287 material factor changes matched; seven remain unresolved across four symbols. Exact replay, EXPOSURE V2 and portfolio return evaluation remain blocked. Recommended next event-data work is a separately authorized, targeted four-symbol/seven-date cross-source check using existing Tushare permission if available, otherwise free issuer/SZSE/CNINFO announcements. Do not purchase data unless that bounded free path proves insufficient. REQUAL01 remains a separate direction.
+CAQUAL01 completed with 280 of 287 material factor changes matched and seven unresolved across four symbols. CAQUAL02 has now closed those seven data gaps through free official sources; ADR-0027 supersedes the old `TOTAL_RETURN_APPROX_ONLY` data-gap state. CAQUAL01 artifacts remain frozen and unchanged. REQUAL01 remains a separate direction.
 
 ## Current state
 
-INTEGRATION01 passed independent review and was merged normally to execution `master` and Research Ledger `main`. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
+INTEGRATION01 passed independent review and was merged normally to execution `master` and Research Ledger `main`. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `EVENT_DATA_COMPLETE_POLICY_REQUIRED`.
 
 ## Recommended parallel directions
 
 1. `REQUAL01`: preregister PIT-corrected upstream feature/target/model requalification with new namespaces, budgets, frozen inputs and independent evidence gates. Do not rerun CAD01/CAD02/MODEL01 in place.
-2. `CAQUAL01`: qualify dated dividend, bonus/split and rights entitlements, coverage and reconciliation for a cash/share holding ledger. Any credential-sensitive external access or purchase needs its own exact confirmation.
+2. `CAQUAL02_ELECTION_POLICY_DIRECTION`: bind actual historical account elections for held rights actions, if account reconstruction is requested. Do not infer a choice from return outcomes.
 
-Portfolio real-market evaluation and EXPOSURE01 V2 remain `BLOCKED` until the relevant requalification and event-account gates pass. Neither recommended direction authorizes a return replay, future test, broker order, payment or live deployment.
+Portfolio real-market evaluation and EXPOSURE01 V2 remain `BLOCKED` until the relevant requalification and event-account policy gates pass. Neither recommended direction authorizes a return replay, future test, broker order, payment or live deployment.
 
 ## Protected intervals
 
