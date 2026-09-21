@@ -1,8 +1,8 @@
 # Current State
 
-## REQUAL01 active (2026-09-21)
+## REQUAL01 complete (2026-09-21)
 
-ADR-0025 and controller directive `ALPHA-REQUAL01-PIT-CORRECTED-RESEARCH-REPLAY-V1` activate one additive PIT-corrected correctness replay in Alpha Factory. The task binds the frozen 97-factor WF1-WF3 population/rules, corrected structure, original CAD grammar/budgets/seeds and fixed MODEL01 roster. Historical results remain read-only and selection history is not reset. Interaction, Exposure, Portfolio sizing selection, 2024–2025 and 2026 access remain closed; CAQUAL01 is separate.
+ADR-0026 closes `REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` as `PASS_WITH_WARNINGS` at Alpha Factory work commit `9eb913aef4812cf6acb18e13ea66e947c16a427c`. `FREE_DAILY_PIT_V2` contains 87,408 rows for 72 symbols from 2019-01-02 through 2023-12-29. The frozen 97-factor / 291-attempt protocol retained 27 survivors with zero lifecycle changes; corrected structure retained 16 archetypes and 10 estimated dimensions; CAD retained three candidates and `S123`; MODEL01 retained `RIDGE_F1` / `F1`. The corrected system is system-equivalent to the old provisional system, but the old artifact is superseded for forward selection. Validator: 18 PASS / 3 warnings / 0 fail; 184 Alpha Factory tests pass. Evidence remains selection contaminated. No interaction, Exposure, Portfolio selection, 2024–2025 or 2026 access occurred. CAQUAL01 remains separate.
 
 ## INTEGRATION01 complete (2026-09-21)
 
@@ -26,7 +26,7 @@ Last updated: 2026-09-21
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `INTEGRATION01_PITPRICE_PIPELINE_PORTFOLIO_V1` / reviewed engineering baseline at Alpha Factory work commit `62daaa7319eb06de8333f150049377286450da36`, merged as `e4758907dd246e812a2e56f35ff41defc3c7f116` |
+| Last completed execution task | `REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` / `PASS_WITH_WARNINGS` at Alpha Factory work commit `9eb913aef4812cf6acb18e13ea66e947c16a427c` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |

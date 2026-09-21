@@ -2,12 +2,11 @@
 
 ## Current state
 
-`REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` is `ACTIVE` under ADR-0025 and exact controller directive `ALPHA-REQUAL01-PIT-CORRECTED-RESEARCH-REPLAY-V1`. PITPRICE01 remains semantic authority. Ridge F1/S123 is superseded pending the additive replay; EXPOSURE01 V1 remains invalid for selection. CAQUAL01 remains a separate future direction.
+`REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` is complete under ADR-0026. The corrected additive freeze retains Ridge F1/S123 and supersedes the old artifact for forward selection. EXPOSURE01 V1 remains invalid for selection. The program is waiting for an exact controller directive; CAQUAL01 remains a separate possible direction.
 
-## Recommended parallel directions
+## Recommended next direction
 
-1. `REQUAL01`: preregister PIT-corrected upstream feature/target/model requalification with new namespaces, budgets, frozen inputs and independent evidence gates. Do not rerun CAD01/CAD02/MODEL01 in place.
-2. `CAQUAL01`: qualify dated dividend, bonus/split and rights entitlements, coverage and reconciliation for a cash/share holding ledger. Any credential-sensitive external access or purchase needs its own exact confirmation.
+`CAQUAL01` may qualify dated dividend, bonus/split and rights entitlements, coverage and reconciliation for a cash/share holding ledger, but it requires a new exact controller directive. Any credential-sensitive external access or purchase needs its own explicit confirmation.
 
 Portfolio real-market evaluation and EXPOSURE01 V2 remain `BLOCKED` until the relevant requalification and event-account gates pass. Neither recommended direction authorizes a return replay, future test, broker order, payment or live deployment.
 
