@@ -1,5 +1,9 @@
 # Current State
 
+## INTEGRATION01 execution merged; Ledger merge pending (2026-09-21)
+
+Controller directive `ALPHA-INTEGRATION01-PITPRICE-PIPELINE-PORTFOLIO-V1` integrated PITPRICE01 correctness contracts with PIPELINE01 incremental runtime and PORTFOLIO01 sizing. Execution work commit `62daaa7319eb06de8333f150049377286450da36` was merged normally to master at `e4758907dd246e812a2e56f35ff41defc3c7f116`. Research Ledger normal merge remains pending. Independent review passed with a source-drift cache warning; 57 owner tests passed. ADR-0024 records the reviewed baseline; ADR-0021 and frozen PITPRICE01 evidence remain authoritative. `UPSTREAM_MODEL_INVARIANT=NO`. Old Ridge F1/S123 is a superseded research fixture pending REQUAL01; there is no current production champion. EXPOSURE01 V1 remains invalid for selection. Primary capital is RMB 50,000, scaling diagnostic RMB 1,000,000. Corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`; exact executable wealth and real-market portfolio evaluation await CAQUAL01. PIPELINE01 is `ENGINE_READY_WITH_PERF_WARNING` on synthetic evidence. The 2024–2025 and 2026 market intervals remain sealed for this task. No Alpha research, exposure replay or portfolio return evaluation occurred.
+
 ## PITPRICE01 completed at upstream hard gate (2026-09-21)
 
 ADR-0021 records `UPSTREAM_RESEARCH_REQUALIFICATION_REQUIRED` at Alpha Factory work commit `e622bae101329a4b4f365d3354ff11e115ccc046`. The capital audit found that the project charter's RMB 50,000 initial model was not propagated into EXPOSURE01 V1's explicit RMB 1m continuous account; `STATE_PROPAGATION_FAILURE` is primary. A bounded 2019–2023 causal-price comparison changed frozen Ridge F1 inputs and five of 36 fixed exposure-signal Top20 choices, so `UPSTREAM_MODEL_INVARIANT=NO`. No V2 replay or policy selection occurred. BaoStock price-return links do not supply exact cash/share entitlements. See `research/price-basis/PITPRICE01_RESULT_SUMMARY.md` and the exact Alpha Factory report/checkpoint. V1, CAD01/CAD02/MODEL01 remain frozen; 2024–2025 and 2026 market rows remain unopened by PITPRICE01. Next is controller direction on upstream requalification and event data.
@@ -18,7 +22,7 @@ Last updated: 2026-09-21
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `PITPRICE01_ASOF_PRICE_BASIS_REPAIR_V1` / `UPSTREAM_RESEARCH_REQUALIFICATION_REQUIRED` at Alpha Factory work commit `e622bae101329a4b4f365d3354ff11e115ccc046` |
+| Last completed execution task | `INTEGRATION01_PITPRICE_PIPELINE_PORTFOLIO_V1` / reviewed engineering baseline at Alpha Factory work commit `62daaa7319eb06de8333f150049377286450da36`, merged as `e4758907dd246e812a2e56f35ff41defc3c7f116` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |

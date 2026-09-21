@@ -1,29 +1,16 @@
 # Next Research Work
 
-## Current direction after PITPRICE01
+## Current state
 
-Alpha Factory `PITPRICE01_UPSTREAM_REQUALIFICATION_DIRECTION` is `WAIT_FOR_CONTROLLER_DIRECTION`. ADR-0021 closed PITPRICE01 with `UPSTREAM_MODEL_INVARIANT=NO`; no EXPOSURE01 V2 manifest or replay was made. The controller may separately specify a bounded upstream requalification and dated corporate-action entitlement data path, or defer. No CAD/MODEL rerun, future-row access, new exposure policy, replay or trading is authorized by this direction task. The charter's 50k primary and 1m scaling diagnostic are frozen in the additive capital contract, not a replay authorization.
+INTEGRATION01 passed independent review and is merged to execution `master`; the Research Ledger normal merge remains pending. Active research or evaluation tasks: `NONE`. PITPRICE01 remains the price/capital semantic authority. `UPSTREAM_MODEL_INVARIANT=NO`; Ridge F1/S123 is `SUPERSEDED_FOR_FORWARD_SELECTION_PENDING_REQUALIFICATION`. EXPOSURE01 V1 is `INVALID_FOR_SELECTION`. The current corporate-action capability is `TOTAL_RETURN_APPROX_ONLY`.
 
-## EXPOSURE01 authorization history (2026-09-21)
+## Recommended parallel directions
 
-`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` was authorized under ADR-0019 and is archived at `tasks/completed/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`. The former MODEL01 direction wait was superseded only for this bounded 2019–2023 exposure comparison. Alpha Factory start HEAD was `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`; the Ridge F1 freeze SHA-256 is `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. Neither 2024–2025 nor 2026 test access was authorized.
+1. `REQUAL01`: preregister PIT-corrected upstream feature/target/model requalification with new namespaces, budgets, frozen inputs and independent evidence gates. Do not rerun CAD01/CAD02/MODEL01 in place.
+2. `CAQUAL01`: qualify dated dividend, bonus/split and rights entitlements, coverage and reconciliation for a cash/share holding ledger. Any credential-sensitive external access or purchase needs its own exact confirmation.
 
-## Current next direction after EXPOSURE01
+Portfolio real-market evaluation and EXPOSURE01 V2 remain `BLOCKED` until the relevant requalification and event-account gates pass. Neither recommended direction authorizes a return replay, future test, broker order, payment or live deployment.
 
-Alpha Factory `EXPOSURE01_CAUSAL_PRICE_REPAIR_DIRECTION` is `WAIT_FOR_CONTROLLER_DIRECTION`. V1 closed `INCONCLUSIVE_CORRECTNESS_GATE` at work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198` under ADR-0020. Its six completed slots and failed validator are preserved. A controller may separately authorize a new, forward as-of adjusted-price/account experiment with fresh manifest and attempt accounting, or defer. The direction task itself authorizes no replay, 2024–2025 or 2026 access, future test, or trading.
+## Protected intervals
 
-## Active controller directive
-
-`MODEL01_MODEL_CAPACITY_BAKEOFF_V1` is complete under ADR-0018. The matching Alpha Factory next task is `GEN2_LOCKED_ONE_SYSTEM_TEST_DIRECTION`, a controller direction request only. Review the one frozen Ridge F1 versus Ridge F0 system, CAD02's incomplete calibration and overrun, accumulated model-selection bias, PIT/survivorship gaps and synthetic costs. A possible 2024–2025 test needs a separate exact directive and pre-access manifest. The 2026 holdout remains sealed.
-
-## Completed task
-
-`CAD02_SYNERGY_CALIBRATION_AND_SYSTEM_FREEZE_V1` is complete under ADR-0017 with a technically frozen S123 provisional research system and an incomplete synthetic calibration. The calibration exceeded its six-hour wall cap by 2,297.160 seconds, which is retained as a protocol deviation. The exact result, limits, and work commit are in `research/combinatorial-discovery/CAD02_RESULT_SUMMARY.md` and the Alpha Factory report/checkpoint. CAD01 remains complete and immutable. Old P0-8D/P0-8D0 remains 12 investigated, zero executable, unrun.
-
-## Recommended next routine task
-
-`CAD03_ONE_SYSTEM_TEST_DIRECTION` is the matching Alpha Factory `state/NEXT_TASK.md` direction request. The controller may review whether the exact technically frozen S123-versus-S0 system should enter one separately specified 2024–2025 research test, given the incomplete calibration and selection-contaminated evidence. This direction request does not authorize data access. A later exact directive, immutable bindings and pre-access manifest are required; 2026 remains sealed.
-
-## Resume
-
-`ALPHA-CAD-RESUME` with both repository paths means recover repository state through Alpha Factory `worker_start`, its five mandatory state files, the frozen CAD01 contract and completion artifacts, and the active Alpha Factory task/checkpoint. CAD01 and CAD02 are complete; do not restart either, reset a consumed slot, or infer progress from chat memory. Keep 2024–2025 and 2026 unopened absent a new exact directive and manifest.
+The 2024–2025 test interval is `SEALED` for this integration. The 2026 protected holdout is `SEALED / UNACCESSED / UNCONSUMED`. Any later access requires a separate exact directive and the repository's pre-access manifest and one-run controls. CAD01/CAD02/MODEL01, EXPOSURE01 V1 and PITPRICE01 frozen records remain intact.
