@@ -1,5 +1,9 @@
 # Current State
 
+## CAQUAL02 active (2026-09-21)
+
+ADR-0026 authorizes an isolated additive qualification of only the seven CAQUAL01 gaps across `000029.SZ`, `000049.SZ`, `000065.SZ`, and `000088.SZ`. Execution base is CAQUAL01 state commit `0c399a201a8dac8cefabe190b9487d66237b63b9`; Ledger base is `cf925366564a40b70661b40ea438980eac61f610`. Free official issuer/SZSE/CNINFO evidence is allowed for historical account reconstruction only. CAQUAL01, REQUAL01 and shared main remain untouched; no later interval, Alpha research, return comparison, credentials, payment or merge is authorized.
+
 ## CAQUAL01 complete (2026-09-21)
 
 ADR-0025 records the bounded BaoStock qualification at Alpha Factory work commit `30aabd4b63f3ab26b8b6ab322638e6a0b489fd6a`. Across the frozen 72 securities and 2019-2023, 280 of 287 material factor changes reconcile to 280 canonical dividend events; seven changes remain unmatched, zero ambiguous, affecting four symbols. `CORPORATE_ACTION_LEDGER_CAPABILITY=TOTAL_RETURN_APPROX_ONLY`; exact account replay remains blocked. Seventeen synthetic tests and 20 fail-closed checks passed. Paid data is not required now; the next targeted source is Tushare plus free issuer/exchange announcements. No Tushare call, payment, EXPOSURE V2, return comparison, or 2024-2025/2026 market-row access occurred.

@@ -1,5 +1,9 @@
 # Next Research Work
 
+## CAQUAL02 active
+
+Execute `CAQUAL02_UNRESOLVED_EVENT_CLOSURE_V1` only in the isolated `codex/caqual02-unresolved-event-closure-v1` worktrees. Resolve or precisely retain the seven frozen CAQUAL01 gaps using issuer, SZSE, CNINFO or another authoritative issuer/exchange record; implement the automatic/elective ledger contracts and holding-path coverage gate; then publish the capability and paid-data decision. Do not merge shared main, touch REQUAL01, access 2024-2025/2026 market rows, or run predictive/return work.
+
 ## CAQUAL01 result
 
 CAQUAL01 is complete with `TOTAL_RETURN_APPROX_ONLY`: 280 of 287 material factor changes matched; seven remain unresolved across four symbols. Exact replay, EXPOSURE V2 and portfolio return evaluation remain blocked. Recommended next event-data work is a separately authorized, targeted four-symbol/seven-date cross-source check using existing Tushare permission if available, otherwise free issuer/SZSE/CNINFO announcements. Do not purchase data unless that bounded free path proves insufficient. REQUAL01 remains a separate direction.
