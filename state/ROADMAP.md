@@ -1,8 +1,10 @@
 # Roadmap
 
-## Current bounded exposure research
+## EXPOSURE01 bounded exposure research — closed inconclusive
 
-`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` is active under ADR-0019. It tests continuous-account terminal wealth for the frozen Ridge F1/S123 signal and cash choices on the 72-security 2019–2023 research subset. At most two gates, no new model and no later tranche. After its report and independent review, next step is controller direction, with no automatic test or production transition.
+`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` was authorized under ADR-0019 to test continuous-account terminal wealth for the frozen Ridge F1/S123 signal and cash choices on the 72-security 2019–2023 research subset. At most two gates, no new model and no later tranche. After its report and independent review, next step is controller direction, with no automatic test or production transition.
+
+Result: V1 closed `INCONCLUSIVE_CORRECTNESS_GATE` under ADR-0020 at execution work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198`. The six outcomes are invalid diagnostics because the account used backward end-normalized adjustment factors with future links. A distinct causal-price repair is a possible **controller-direction** next step only; no replay, 2024–2025/2026 access, protected test, or production transition is active.
 
 ## Completed Generation 1
 

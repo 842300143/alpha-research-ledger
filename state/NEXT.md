@@ -1,8 +1,12 @@
 # Next Research Work
 
-## Active EXPOSURE01 directive (2026-09-21)
+## EXPOSURE01 authorization history (2026-09-21)
 
-`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` is authorized under ADR-0019 and `tasks/active/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`. The former MODEL01 direction wait is superseded only for this bounded 2019–2023 exposure comparison. Alpha Factory start HEAD is `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`; the Ridge F1 freeze SHA-256 is `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. After this task, seek controller direction. Neither 2024–2025 nor 2026 test access is authorized.
+`EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` was authorized under ADR-0019 and is archived at `tasks/completed/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`. The former MODEL01 direction wait was superseded only for this bounded 2019–2023 exposure comparison. Alpha Factory start HEAD was `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`; the Ridge F1 freeze SHA-256 is `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. Neither 2024–2025 nor 2026 test access was authorized.
+
+## Current next direction after EXPOSURE01
+
+Alpha Factory `EXPOSURE01_CAUSAL_PRICE_REPAIR_DIRECTION` is `WAIT_FOR_CONTROLLER_DIRECTION`. V1 closed `INCONCLUSIVE_CORRECTNESS_GATE` at work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198` under ADR-0020. Its six completed slots and failed validator are preserved. A controller may separately authorize a new, forward as-of adjusted-price/account experiment with fresh manifest and attempt accounting, or defer. The direction task itself authorizes no replay, 2024–2025 or 2026 access, future test, or trading.
 
 ## Active controller directive
 

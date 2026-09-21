@@ -1,8 +1,12 @@
 # Current State
 
-## Active controller task: EXPOSURE01
+## EXPOSURE01 controller authorization history
 
 The controller authorized `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` under ADR-0019 from Alpha Factory HEAD `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90` and Ledger HEAD `e335d575e39d9cfd561bfa131fb17f0a7f5ef0c8`. MODEL01 is complete and unchanged: Ridge F1/S123, 16 base plus C1/C2/C3, 10 systems and 30 folds, 16 validator PASS, zero FAIL. The >0.005 RankIC complexity premium retained Ridge despite ElasticNet F1 leading mean RankIC by 0.003064. ElasticNet F0's approximately 0.000422 higher modeled net outcome is only an alternate clue; it does not revise MODEL01 selection. EXPOSURE01's objective is full-calendar, after-cost compounded terminal wealth, with cash allowed. Two-month windows are diagnostics, not independent samples. Evidence remains selection-contaminated, non-PIT and synthetic for execution. CAD02's 15/20 calibration, one incomplete run and 2,297.160-second overrun remain unchanged. The 2024–2025 interval was used in Generation-1 research but is unopened by EXPOSURE01; 2026 remains sealed. No test or live-trading authorization.
+
+## EXPOSURE01 completed inconclusive
+
+ADR-0020 closes V1 at Alpha Factory work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198`. Three policies and six account/cost paths were retained, but the validator found one hard as-of price failure: backward end-normalized adjustment factors encoded post-2023 events in 2019–2023 execution prices. The independent Reviewer agreed; 51/72 factors at 2023-12-29 were nonunit. Validator 71 PASS / one FAIL; no policy selected. The next work is controller direction on a separate causal-price correction, not a V1 rerun. See `research/exposure/EXPOSURE01_RESULT_SUMMARY.md` and the exact Alpha Factory report/checkpoint. No later data or trading access.
 
 Last updated: 2026-09-21
 
@@ -10,7 +14,7 @@ Last updated: 2026-09-21
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `MODEL01_MODEL_CAPACITY_BAKEOFF_V1` / `COMPLETE_NO_MODEL_UPGRADE` at Alpha Factory work commit `7565127615202c3edbc6d43458ac941d7a217282` |
+| Last completed execution task | `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` / `INCONCLUSIVE_CORRECTNESS_GATE` at Alpha Factory work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
