@@ -1,6 +1,10 @@
 # Current State
 
-## EXPOSURE02 canonical replay active (2026-09-22)
+## EXPOSURE02 canonical replay V1 closed fail-closed (2026-09-22)
+
+ADR-0039 accepts `EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1` as `INCONCLUSIVE_IMPLEMENTATION_PREFLIGHT_GATE / FAIL_CLOSED`. The first required P0 / RMB 50,000 / 1x slot is terminal `FAILED_NO_RETRY` after `FROZEN_GRID_CONTRACT_DRIFT`; no account loop, wealth result, P0 reproduction, P2 evaluation or policy selection exists. Eleven slots were not started and cannot run under V1. Alpha Factory failure evidence is `b010422812cb707109548854e6855c004900682c`; formal close is `edc89dba143f8e412fa1b6ffc38b793c72fe3a3e`. Portfolio02 remains valid and unchanged. Next is controller integration or separately versioned repair/replay direction.
+
+## EXPOSURE02 canonical replay activation history (2026-09-22)
 
 ADR-0038 and directive `ALPHA-EXPOSURE02-CANONICAL-BASELINE-REPLAY-V1` authorize an exact 12-slot replay of the frozen P0/P1/P2 Exposure02 roster through EVALRECON01's canonical account path. Alpha Factory is activated at `81a0b09cb3b94000a32af4a637caeca9ee1d4338` on the isolated `codex/exposure02-canonical-baseline-replay-v1` branch; this Ledger task is isolated from base commit `12a56ef0eb6cda8b4b4b1e4ef29ce73c173eb0d0`. P0 50k/1x must reproduce RMB 57,445.71, strategic allocation calls must equal 36 with no off-grid redistribution, and every market replay must pass the exact holding-path gate. Portfolio02 and all predecessor artifacts remain frozen; later market intervals and external actions remain closed.
 

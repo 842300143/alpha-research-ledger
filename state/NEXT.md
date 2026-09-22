@@ -2,22 +2,27 @@
 
 ## Status
 
-`ACTIVE`
+`WAIT_FOR_CONTROLLER_DIRECTION`
 
 ## Task
 
-`EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1`
+`CONTROLLER_INTEGRATION_DIRECTION`
 
-## Directive
+## Decision needed
 
-`ALPHA-EXPOSURE02-CANONICAL-BASELINE-REPLAY-V1`
+Choose whether to integrate the fail-closed Exposure02 canonical V1 negative result as-is or authorize a separately versioned corrected replay.
 
-## Execution
+V1's first one-use slot is terminal and cannot be retried. No wealth result, P0 anchor reproduction, P2 evaluation or policy winner exists. Portfolio02 remains valid and unchanged under ADR-0037.
 
-Alpha Factory branch `codex/exposure02-canonical-baseline-replay-v1`, activated at `81a0b09cb3b94000a32af4a637caeca9ee1d4338`, owns the bounded additive replay defined by `tasks/active/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md` and ADR-0038.
+Any replay must use a new task version, additive namespace, corrected grid preflight, committed pre-result manifest and new one-use attempt roster. Keep 2024-2025 and 2026 sealed and all broker, payment, credential, production, destructive Git, force-push and history-rewrite actions forbidden.
 
-The exact 12-slot roster, P0 RMB 57,445.71 anchor, 36 scheduled allocation calls, no off-grid redistribution, per-path exact holding gate, RMB 50,000 / 1x selection endpoint, and Portfolio02 non-mutation rule are mandatory. Keep 2024-2025 and 2026 sealed and all broker, payment, credential, production, destructive Git, force-push, and history-rewrite actions forbidden.
+## Inputs
+
+- ADR-0039.
+- `tasks/completed/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md`.
+- `research/exposure/EXPOSURE02_CANONICAL_V1_RESULT_SUMMARY.md`.
+- Alpha Factory formal close commit `edc89dba143f8e412fa1b6ffc38b793c72fe3a3e`.
 
 ## Stop
 
-Stop after a clean committed Alpha Factory report/checkpoint and matching Ledger result/disposition are available for `CONTROLLER_INTEGRATION_DIRECTION`, or earlier at the canonical-anchor or exact-holding fail-closed gate.
+Stop pending exact controller direction.
