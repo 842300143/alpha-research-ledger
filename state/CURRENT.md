@@ -1,5 +1,9 @@
 # Current State
 
+## EVALRECON01 active (2026-09-22)
+
+ADR-0036 and controller directive `ALPHA-EVALRECON01-COMMON-BASELINE-RECONCILIATION-V1` authorize one correctness-only reconciliation of the committed Exposure02 V2 P0 AlwaysInvest + EqualWeight and Portfolio02 EqualWeight + AlwaysInvest paths. The Alpha Factory common base is `a1bee7a5d07dd69c28eb8ba5892bc58db42aefb4`. Work is additive, cannot overwrite either result or reselect a winner, and keeps 2024-2025 and 2026 sealed.
+
 ## INTEGRATION02 complete (2026-09-22)
 
 ADR-0031 accepts the unified corrected-research and corporate-action engineering baseline at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972`, integration state commit `df5f374eefb7204a2705282dd8b4445d6ee9859e`, and normal master merge `b17b33bbaec09573e8b14af710830340a9aba392`. The Research Ledger normal main merge is `70ca84a11f6dc1dea7dbadec04ed13c0cf775315`. Current system is corrected Ridge F1/S123 V2 / `PROVISIONAL_RESEARCH_SYSTEM`; the pre-PIT system is `SUPERSEDED`; production champion is `NONE`; confirmed Alpha is `NO`. The 14 REQUAL impact warnings are explanation-only, not corrected-semantic blockers. CAQUAL02 leaves no event-data gap, and ELECTION01 supplies the frozen self-financing policy. Generic capability is `EXACT_EVENT_AWARE_UNDER_FROZEN_ELECTION_POLICY`; exact replay requires `HOLDING_PATH_EVENT_COVERAGE_GATE=EXACT_FOR_THIS_REPLAY`. Capital is RMB 50,000 primary and RMB 1,000,000 diagnostic. Alpha Factory passes 250 tests and 13 independent checks. No wealth replay, new Alpha research, 2024–2025 or 2026 access occurred.

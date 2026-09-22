@@ -1,13 +1,17 @@
 # Next Research Work
 
-## Current state
+## Active task
 
-`INTEGRATION02_REQUAL_CORPORATE_ACTION_V1` is complete under ADR-0031. The corrected Ridge F1/S123 V2 system, CAQUAL02 event evidence, ELECTION01 self-financing policy, PITPRICE01 price/capital contracts, and INTEGRATION01 runtime/portfolio engine now share one versioned baseline. EXPOSURE01 V1 remains invalid for selection. The program is waiting for an exact controller directive.
+`EVALRECON01_COMMON_BASELINE_RECONCILIATION_V1` under directive `ALPHA-EVALRECON01-COMMON-BASELINE-RECONCILIATION-V1`.
 
-## Recommended next direction
+## Goal
 
-Choose exact, separately bounded EXPOSURE02 and PORTFOLIO02 scopes. Any replay must use the corrected exact system, RMB 50,000 primary capital, raw execution prices, and a per-run `EXACT_FOR_THIS_REPLAY` holding-path gate. Neither direction is currently authorized, and neither may imply a future test, broker order, payment or live deployment.
+Explain and eliminate the RMB 678.13 discrepancy between the committed Exposure02 V2 P0 AlwaysInvest + EqualWeight and Portfolio02 EqualWeight + AlwaysInvest paths through one authority-bound common baseline and only the necessary correctness-equivalent replay.
 
-## Protected intervals
+## Required result
 
-The 2024–2025 interval is `SEALED`. The 2026 protected holdout is `SEALED / UNACCESSED / UNCONSUMED`. Any later access requires a separate exact directive and the repository's pre-access manifest and one-run controls. REQUAL01, CAQUAL02, ELECTION01, historical CAD01/CAD02/MODEL01, EXPOSURE01 V1 and PITPRICE01 records remain frozen.
+Bind exact Git/source hashes; compare all 36 decision dates, predictions, Top20 ordering, continuous and integer targets, orders/fills, corporate-action paths, and daily cash/share/NAV states; identify the first divergence and root cause; publish `CANONICAL_COMMON_BASELINE_V1`; and determine which historical task requires a separate minimal replay without automatically changing either winner.
+
+## Protected boundaries
+
+Frozen predecessor results remain unchanged. No new Alpha, tuning, winner selection, 2024-2025 or 2026 access, broker action, payment, credential action, production action, destructive Git action, or history rewrite.
