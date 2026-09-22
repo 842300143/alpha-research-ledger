@@ -1,5 +1,9 @@
 # Current State
 
+## INTEGRATION03 active (2026-09-22)
+
+Controller directive `ALPHA-INTEGRATION03-20D-RESEARCH-BASELINE-FREEZE-V1` authorizes a bounded engineering integration and research-baseline freeze. The task will integrate only the validated EVALRECON01, Portfolio02 and Exposure02 canonical-composition V2 lineages, preserve their failures and repairs, record the documented horizon provenance, and freeze `CURRENT_20D_RESEARCH_BASELINE_V1` with a separate EqualWeight comparator. It does not authorize a replay, new Alpha research, Horizon01 execution, 2024-2025 or 2026 access, production, payment, credentials or broker activity.
+
 ## INTEGRATION02 complete (2026-09-22)
 
 ADR-0031 accepts the unified corrected-research and corporate-action engineering baseline at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972`, integration state commit `df5f374eefb7204a2705282dd8b4445d6ee9859e`, and normal master merge `b17b33bbaec09573e8b14af710830340a9aba392`. The Research Ledger normal main merge is `70ca84a11f6dc1dea7dbadec04ed13c0cf775315`. Current system is corrected Ridge F1/S123 V2 / `PROVISIONAL_RESEARCH_SYSTEM`; the pre-PIT system is `SUPERSEDED`; production champion is `NONE`; confirmed Alpha is `NO`. The 14 REQUAL impact warnings are explanation-only, not corrected-semantic blockers. CAQUAL02 leaves no event-data gap, and ELECTION01 supplies the frozen self-financing policy. Generic capability is `EXACT_EVENT_AWARE_UNDER_FROZEN_ELECTION_POLICY`; exact replay requires `HOLDING_PATH_EVENT_COVERAGE_GATE=EXACT_FOR_THIS_REPLAY`. Capital is RMB 50,000 primary and RMB 1,000,000 diagnostic. Alpha Factory passes 250 tests and 13 independent checks. No wealth replay, new Alpha research, 2024–2025 or 2026 access occurred.
