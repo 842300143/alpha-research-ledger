@@ -1,8 +1,8 @@
 # Current State
 
-## INTEGRATION03 active (2026-09-22)
+## INTEGRATION03 complete (2026-09-22)
 
-Controller directive `ALPHA-INTEGRATION03-20D-RESEARCH-BASELINE-FREEZE-V1` authorizes a bounded engineering integration and research-baseline freeze. The task will integrate only the validated EVALRECON01, Portfolio02 and Exposure02 canonical-composition V2 lineages, preserve their failures and repairs, record the documented horizon provenance, and freeze `CURRENT_20D_RESEARCH_BASELINE_V1` with a separate EqualWeight comparator. It does not authorize a replay, new Alpha research, Horizon01 execution, 2024-2025 or 2026 access, production, payment, credentials or broker activity.
+ADR-0042 accepts `INTEGRATION03_20D_RESEARCH_BASELINE_FREEZE_V1` as `PASS_WITH_WARNINGS / CURRENT_20D_RESEARCH_BASELINE_V1_FROZEN`. The baseline separately registers corrected Ridge F1/S123 V2 prediction, a 20-session target and rebalance, Top20 candidates, provisional RankWeight sizing, retained AlwaysInvest exposure, canonical modeled execution/account semantics and exact event-aware corporate actions. EqualWeight remains the canonical comparator at RMB 57,445.71 (+14.89142%); RankWeight is RMB 59,600.99 (+19.20198%) but loses by RMB 42.41 at 2x costs and remains provisional. Trend60's rejection is limited to this frozen system. Horizon selection is `DIRECT_DESIGN_ASSUMPTION / NOT_EMPIRICALLY_SELECTED`. No replay, new Alpha research, 2024-2025/2026 access or external action occurred. Next is design-only HORIZON01.
 
 ## PORTFOLIO02 complete (2026-09-22)
 
@@ -54,7 +54,7 @@ Last updated: 2026-09-22
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `PORTFOLIO02_PIT_CORRECTED_SIZING_EVALUATION_V1` / `RANK_WEIGHT_PROVISIONAL` at Alpha Factory result commit `c4d49d782cc34c5666fc5f581f9d45ca45096ab8` |
+| Last completed execution task | `INTEGRATION03_20D_RESEARCH_BASELINE_FREEZE_V1` / `CURRENT_20D_RESEARCH_BASELINE_V1_FROZEN`; exact final commit binding is in the completed task record |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -89,7 +89,7 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 - L1 Data: `FREE_DAILY_V1` supports bounded factor research on the action-aware subset. Full PIT, survivorship, authoritative tradability, corporate actions, and historical-delisted completeness remain unresolved.
 - L2 Alpha Discovery: a structured 103-definition factor taxonomy now replaces ad hoc neighboring-candidate search. Definitions remain draft until P0-8A.
 - L3 Alpha Evaluation: P0-8B/P0-8C protocols separate atomic evaluation from factor structure, add global FDR and shared empirical-null controls, and retain failures.
-- L4 Portfolio: corrected Top20 under AlwaysInvest now has provisional `RANK_WEIGHT_V1` sizing from PORTFOLIO02; the result is selection contaminated and cost-sensitive. EqualWeight remains the simplicity reference. No joint exposure-sizing constructor is authorized.
+- L4 Portfolio: `CURRENT_20D_RESEARCH_BASELINE_V1` binds corrected Top20, provisional `RANK_WEIGHT_V1` and AlwaysInvest for research use. The result is selection contaminated and cost-sensitive; EqualWeight remains the canonical comparator. No further joint tuning or execution is authorized.
 - L5 Execution: costs and fills remain synthetic. Production and real-trading readiness remain `NO`.
 
 ## Evidence status

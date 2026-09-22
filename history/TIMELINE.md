@@ -4,6 +4,7 @@
 
 | Date | Event | Exact evidence |
 | --- | --- | --- |
+| 2026-09-22 | INTEGRATION03 froze `CURRENT_20D_RESEARCH_BASELINE_V1`: provisional RankWeight, retained AlwaysInvest, separate canonical EqualWeight comparator, documented non-empirical 20-session horizon provenance, and preserved failure lineage. | ADR-0042; `research/integration/INTEGRATION03_RESULT_SUMMARY.md`; Alpha Factory Integration03 report/checkpoint. |
 | 2026-09-22 | EVALRECON01 reconciled the Exposure02/Portfolio02 common path at RMB 57,445.71; first cause allocator-reserve drift, second cause non-grid rejected-exit reallocation; Validator V2 21/21. | Alpha Factory formal work commit `7189c2201e6bf1d6350eb5f67820a8f29128f61b`; ADR-0037; `research/exposure/EVALRECON01_RESULT_SUMMARY.md`. |
 | 2026-09-21 | MODEL01 completed `COMPLETE_NO_MODEL_UPGRADE`: Ridge F1/S123 retained; 10 systems/30 folds; 16 PASS/0 FAIL. | Alpha Factory result commit `7565127615202c3edbc6d43458ac941d7a217282`; `reports/MODEL01_MODEL_CAPACITY_BAKEOFF_V1.md`; freeze SHA-256 `d7dcd4a2ebf930e805fc14fc9e059b4bd126b2c7b0054f4451ef8e559893deb7`. |
 | 2026-09-21 | EXPOSURE01 bounded controller directive activated. | ADR-0019; `tasks/completed/EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1.md`; execution start HEAD `aeebb5493e2805d1fcaea81cfb6fdc64f3014b90`. |
