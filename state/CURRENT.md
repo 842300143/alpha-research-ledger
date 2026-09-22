@@ -1,5 +1,9 @@
 # Current State
 
+## EXPOSURE02 canonical replay active (2026-09-22)
+
+ADR-0038 and directive `ALPHA-EXPOSURE02-CANONICAL-BASELINE-REPLAY-V1` authorize an exact 12-slot replay of the frozen P0/P1/P2 Exposure02 roster through EVALRECON01's canonical account path. Alpha Factory is activated at `81a0b09cb3b94000a32af4a637caeca9ee1d4338` on the isolated `codex/exposure02-canonical-baseline-replay-v1` branch; this Ledger task is isolated from base commit `12a56ef0eb6cda8b4b4b1e4ef29ce73c173eb0d0`. P0 50k/1x must reproduce RMB 57,445.71, strategic allocation calls must equal 36 with no off-grid redistribution, and every market replay must pass the exact holding-path gate. Portfolio02 and all predecessor artifacts remain frozen; later market intervals and external actions remain closed.
+
 ## EVALRECON01 complete (2026-09-22)
 
 ADR-0037 accepts EVALRECON01 as `PASS_WITH_WARNINGS / COMMON_BASELINE_RECONCILED` at Alpha Factory formal work commit `7189c2201e6bf1d6350eb5f67820a8f29128f61b`. The RMB 678.13 difference begins at the 2021-07-05 decision from Exposure02 allocator-reserve config drift; a second Exposure02 defect performs non-grid reallocation after a rejected exit. The authority-bound common path equals Portfolio02 and ends at RMB 57,445.71. Independent Validator V2 passes 21/21. Portfolio02 remains valid; Exposure02 requires a separate versioned frozen-roster replay before its winner can be carried forward. No winner was reselected, and 2024-2025/2026 stayed sealed.

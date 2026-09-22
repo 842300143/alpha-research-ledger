@@ -2,12 +2,22 @@
 
 ## Status
 
-`WAIT_FOR_CONTROLLER_DIRECTION`
+`ACTIVE`
 
-## Direction
+## Task
 
-Decide whether to authorize `EXPOSURE02_CANONICAL_BASELINE_REPLAY_DIRECTION`: one separately versioned replay of the exact frozen Exposure02 V2 policy roster and selection rule under `CANONICAL_COMMON_BASELINE_V1`.
+`EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1`
 
-Any executable directive must bind ADR-0037, Alpha Factory formal work commit `7189c2201e6bf1d6350eb5f67820a8f29128f61b`, the EVALRECON01 report/checkpoint, the canonical contract/result hashes, and the exact Exposure02 V2 roster. It may not add a policy, threshold, parameter, capital level, cost scenario, retry, or joint exposure-sizing search.
+## Directive
 
-Portfolio02 remains closed and requires no correctness replay. No replay is authorized from this direction state. The 2024-2025 interval and 2026 protected holdout remain sealed; no broker, payment, credential, production, or destructive action is authorized.
+`ALPHA-EXPOSURE02-CANONICAL-BASELINE-REPLAY-V1`
+
+## Execution
+
+Alpha Factory branch `codex/exposure02-canonical-baseline-replay-v1`, activated at `81a0b09cb3b94000a32af4a637caeca9ee1d4338`, owns the bounded additive replay defined by `tasks/active/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md` and ADR-0038.
+
+The exact 12-slot roster, P0 RMB 57,445.71 anchor, 36 scheduled allocation calls, no off-grid redistribution, per-path exact holding gate, RMB 50,000 / 1x selection endpoint, and Portfolio02 non-mutation rule are mandatory. Keep 2024-2025 and 2026 sealed and all broker, payment, credential, production, destructive Git, force-push, and history-rewrite actions forbidden.
+
+## Stop
+
+Stop after a clean committed Alpha Factory report/checkpoint and matching Ledger result/disposition are available for `CONTROLLER_INTEGRATION_DIRECTION`, or earlier at the canonical-anchor or exact-holding fail-closed gate.
