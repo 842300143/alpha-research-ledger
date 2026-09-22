@@ -1,17 +1,13 @@
 # Next Research Work
 
-## Active task
+## Status
 
-`EVALRECON01_COMMON_BASELINE_RECONCILIATION_V1` under directive `ALPHA-EVALRECON01-COMMON-BASELINE-RECONCILIATION-V1`.
+`WAIT_FOR_CONTROLLER_DIRECTION`
 
-## Goal
+## Direction
 
-Explain and eliminate the RMB 678.13 discrepancy between the committed Exposure02 V2 P0 AlwaysInvest + EqualWeight and Portfolio02 EqualWeight + AlwaysInvest paths through one authority-bound common baseline and only the necessary correctness-equivalent replay.
+Decide whether to authorize `EXPOSURE02_CANONICAL_BASELINE_REPLAY_DIRECTION`: one separately versioned replay of the exact frozen Exposure02 V2 policy roster and selection rule under `CANONICAL_COMMON_BASELINE_V1`.
 
-## Required result
+Any executable directive must bind ADR-0037, Alpha Factory formal work commit `7189c2201e6bf1d6350eb5f67820a8f29128f61b`, the EVALRECON01 report/checkpoint, the canonical contract/result hashes, and the exact Exposure02 V2 roster. It may not add a policy, threshold, parameter, capital level, cost scenario, retry, or joint exposure-sizing search.
 
-Bind exact Git/source hashes; compare all 36 decision dates, predictions, Top20 ordering, continuous and integer targets, orders/fills, corporate-action paths, and daily cash/share/NAV states; identify the first divergence and root cause; publish `CANONICAL_COMMON_BASELINE_V1`; and determine which historical task requires a separate minimal replay without automatically changing either winner.
-
-## Protected boundaries
-
-Frozen predecessor results remain unchanged. No new Alpha, tuning, winner selection, 2024-2025 or 2026 access, broker action, payment, credential action, production action, destructive Git action, or history rewrite.
+Portfolio02 remains closed and requires no correctness replay. No replay is authorized from this direction state. The 2024-2025 interval and 2026 protected holdout remain sealed; no broker, payment, credential, production, or destructive action is authorized.
