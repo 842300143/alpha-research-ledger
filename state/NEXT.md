@@ -2,27 +2,23 @@
 
 ## Status
 
-`ACTIVE`
+`WAIT_FOR_CONTROLLER_DIRECTION`
 
 ## Task
 
-`EXPOSURE02_CANONICAL_COMPOSITION_REPLAY_V2`
+`EXPOSURE02_PORTFOLIO02_INTEGRATION_DIRECTION`
 
 ## Decision needed
 
-Execute ADR-0040's exact contract-composition replay in a new additive namespace.
-
-V1's first one-use slot remains terminal and is not retried. V2 receives a new roster only after immutable strategy and execution parents, the authority matrix, implementation, protected guards, and independent pre-result review are frozen.
-
-Run P0 / RMB 50,000 / 1x first. Stop on any grid, parent, authority, canonical baseline, holding-path, or protected-boundary failure. On PASS, complete the other eleven exact matrix slots and select only from the frozen legal outcomes.
+Choose whether and how to bind the corrected Exposure02 `ALWAYS_INVEST_RETAINED` result with the already-valid Portfolio02 sizing result. Decide whether metadata-only integration is sufficient or whether any new combined replay is justified. No replay or integration is authorized by this direction state.
 
 ## Inputs
 
-- ADR-0040.
-- ADR-0039 and `tasks/completed/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md`.
-- Alpha Factory V1 close `5d716551f59dcce41dd16419efe763031863136e`.
-- EVALRECON01 commits `f58eff5e643cfdd740383197c7ed1bc029b69470` and `12a56ef0eb6cda8b4b4b1e4ef29ce73c173eb0d0`.
+- ADR-0041 and `research/exposure/EXPOSURE02_CANONICAL_V2_RESULT_SUMMARY.md`.
+- Alpha Factory result work commit `489a37206674813c6b56983a88702a485dc99776`.
+- Alpha Factory report and checkpoint for `EXPOSURE02_CANONICAL_COMPOSITION_REPLAY_V2`.
+- Frozen valid Portfolio02 result and its exact commit bindings.
 
 ## Stop
 
-Stop on a named fail-closed gate or after committed result, validation, checkpoint, and handoff.
+Stop pending an exact controller directive. Do not rerun Exposure02 or Portfolio02, create a new policy or sizing candidate, access later market intervals or promote a production system.

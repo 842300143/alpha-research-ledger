@@ -1,8 +1,8 @@
 # Current State
 
-## EXPOSURE02 canonical composition replay V2 active (2026-09-22)
+## EXPOSURE02 canonical composition replay V2 complete (2026-09-22)
 
-ADR-0040 and directive `ALPHA-EXPOSURE02-CANONICAL-COMPOSITION-REPLAY-V2` authorize a new additive replay that composes the immutable Exposure02 V2 strategy contract with EVALRECON01 canonical execution semantics. The task must directly load the frozen grid, prove and eliminate the four V1 binding drifts through authority separation, freeze both parent references and a new composition hash, pass independent pre-result review, and reproduce the RMB 57,445.71 P0 anchor before spending the remaining eleven one-use slots. Portfolio02 and all predecessor evidence remain read-only; 2024-2025 and 2026 stay sealed.
+ADR-0041 accepts `EXPOSURE02_CANONICAL_COMPOSITION_REPLAY_V2` as `PASS_WITH_WARNINGS / ALWAYS_INVEST_RETAINED` at Alpha Factory result work commit `489a37206674813c6b56983a88702a485dc99776`. All 12 additive one-use slots completed once. The primary RMB 50,000 / 1x terminal wealth is P0 RMB 57,445.71, P1 RMB 50,000.00 and P2 RMB 46,117.88. P0 exactly reproduces the EVALRECON01 canonical anchor; every path has 36 strategic calls, zero off-grid reallocations and exact holding-path event coverage. Focused tests pass 16/16 and independent validation passes 41/41. Portfolio02 and predecessor evidence remain unchanged, 2024-2025/2026 stayed sealed, and no production or external action occurred. Next is controller direction on Exposure02/Portfolio02 integration.
 
 ## EXPOSURE02 canonical replay V1 closed fail-closed (2026-09-22)
 
