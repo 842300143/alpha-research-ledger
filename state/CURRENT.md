@@ -1,5 +1,9 @@
 # Current State
 
+## INTEGRATION02 complete (2026-09-22)
+
+ADR-0031 accepts the unified corrected-research and corporate-action engineering baseline at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972` and integration state commit `df5f374eefb7204a2705282dd8b4445d6ee9859e`. Current system is corrected Ridge F1/S123 V2 / `PROVISIONAL_RESEARCH_SYSTEM`; the pre-PIT system is `SUPERSEDED`; production champion is `NONE`; confirmed Alpha is `NO`. The 14 REQUAL impact warnings are explanation-only, not corrected-semantic blockers. CAQUAL02 leaves no event-data gap, and ELECTION01 supplies the frozen self-financing policy. Generic capability is `EXACT_EVENT_AWARE_UNDER_FROZEN_ELECTION_POLICY`; exact replay requires `HOLDING_PATH_EVENT_COVERAGE_GATE=EXACT_FOR_THIS_REPLAY`. Capital is RMB 50,000 primary and RMB 1,000,000 diagnostic. Alpha Factory passes 250 tests and 13 independent checks. No wealth replay, new Alpha research, 2024–2025 or 2026 access occurred.
+
 ## REQUAL01 complete (2026-09-21)
 
 ADR-0026 closes `REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` as `PASS_WITH_WARNINGS` at Alpha Factory work commit `9eb913ac4bff3739c063a9b3f782bf68c74b98f8`. `FREE_DAILY_PIT_V2` contains 87,408 rows for 72 symbols from 2019-01-02 through 2023-12-29. The frozen 97-factor / 291-attempt protocol retained 27 survivors with zero lifecycle changes; corrected structure retained 16 archetypes and 10 estimated dimensions; CAD retained three candidates and `S123`; MODEL01 retained `RIDGE_F1` / `F1`. The corrected system is system-equivalent to the old provisional system, but the old artifact is superseded for forward selection. Validator: 18 PASS / 3 warnings / 0 fail; 184 Alpha Factory tests pass. Evidence remains selection contaminated. No interaction, Exposure, Portfolio selection, 2024–2025 or 2026 access occurred. CAQUAL01 remains separate.
@@ -20,13 +24,13 @@ The controller authorized `EXPOSURE01_CASH_AND_SELECTIVE_INVESTMENT_V1` under AD
 
 ADR-0020 closes V1 at Alpha Factory work commit `87b4bbe2f87081b46182ffb1c2dd18a8aa78b198`. Three policies and six account/cost paths were retained, but the validator found one hard as-of price failure: backward end-normalized adjustment factors encoded post-2023 events in 2019–2023 execution prices. The independent Reviewer agreed; 51/72 factors at 2023-12-29 were nonunit. Validator 71 PASS / one FAIL; no policy selected. The next work is controller direction on a separate causal-price correction, not a V1 rerun. See `research/exposure/EXPOSURE01_RESULT_SUMMARY.md` and the exact Alpha Factory report/checkpoint. No later data or trading access.
 
-Last updated: 2026-09-21
+Last updated: 2026-09-22
 
 | Field | Value |
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `REQUAL01_PIT_CORRECTED_RESEARCH_REPLAY_V1` / `PASS_WITH_WARNINGS` at Alpha Factory work commit `9eb913ac4bff3739c063a9b3f782bf68c74b98f8` |
+| Last completed execution task | `INTEGRATION02_REQUAL_CORPORATE_ACTION_V1` / `ENGINEERING_INTEGRATION_COMPLETE` at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
