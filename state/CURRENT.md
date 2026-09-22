@@ -1,5 +1,9 @@
 # Current State
 
+## EXPOSURE02 canonical composition replay V2 active (2026-09-22)
+
+ADR-0040 and directive `ALPHA-EXPOSURE02-CANONICAL-COMPOSITION-REPLAY-V2` authorize a new additive replay that composes the immutable Exposure02 V2 strategy contract with EVALRECON01 canonical execution semantics. The task must directly load the frozen grid, prove and eliminate the four V1 binding drifts through authority separation, freeze both parent references and a new composition hash, pass independent pre-result review, and reproduce the RMB 57,445.71 P0 anchor before spending the remaining eleven one-use slots. Portfolio02 and all predecessor evidence remain read-only; 2024-2025 and 2026 stay sealed.
+
 ## EXPOSURE02 canonical replay V1 closed fail-closed (2026-09-22)
 
 ADR-0039 accepts `EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1` as `INCONCLUSIVE_IMPLEMENTATION_PREFLIGHT_GATE / FAIL_CLOSED`. The first required P0 / RMB 50,000 / 1x slot is terminal `FAILED_NO_RETRY` after `FROZEN_GRID_CONTRACT_DRIFT`; no account loop, wealth result, P0 reproduction, P2 evaluation or policy selection exists. Eleven slots were not started and cannot run under V1. Alpha Factory failure evidence is `b010422812cb707109548854e6855c004900682c`; formal close is `edc89dba143f8e412fa1b6ffc38b793c72fe3a3e`. Portfolio02 remains valid and unchanged. Next is controller integration or separately versioned repair/replay direction.

@@ -2,27 +2,27 @@
 
 ## Status
 
-`WAIT_FOR_CONTROLLER_DIRECTION`
+`ACTIVE`
 
 ## Task
 
-`CONTROLLER_INTEGRATION_DIRECTION`
+`EXPOSURE02_CANONICAL_COMPOSITION_REPLAY_V2`
 
 ## Decision needed
 
-Choose whether to integrate the fail-closed Exposure02 canonical V1 negative result as-is or authorize a separately versioned corrected replay.
+Execute ADR-0040's exact contract-composition replay in a new additive namespace.
 
-V1's first one-use slot is terminal and cannot be retried. No wealth result, P0 anchor reproduction, P2 evaluation or policy winner exists. Portfolio02 remains valid and unchanged under ADR-0037.
+V1's first one-use slot remains terminal and is not retried. V2 receives a new roster only after immutable strategy and execution parents, the authority matrix, implementation, protected guards, and independent pre-result review are frozen.
 
-Any replay must use a new task version, additive namespace, corrected grid preflight, committed pre-result manifest and new one-use attempt roster. Keep 2024-2025 and 2026 sealed and all broker, payment, credential, production, destructive Git, force-push and history-rewrite actions forbidden.
+Run P0 / RMB 50,000 / 1x first. Stop on any grid, parent, authority, canonical baseline, holding-path, or protected-boundary failure. On PASS, complete the other eleven exact matrix slots and select only from the frozen legal outcomes.
 
 ## Inputs
 
-- ADR-0039.
-- `tasks/completed/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md`.
-- `research/exposure/EXPOSURE02_CANONICAL_V1_RESULT_SUMMARY.md`.
-- Alpha Factory formal close commit `edc89dba143f8e412fa1b6ffc38b793c72fe3a3e`.
+- ADR-0040.
+- ADR-0039 and `tasks/completed/EXPOSURE02_CANONICAL_BASELINE_REPLAY_V1.md`.
+- Alpha Factory V1 close `5d716551f59dcce41dd16419efe763031863136e`.
+- EVALRECON01 commits `f58eff5e643cfdd740383197c7ed1bc029b69470` and `12a56ef0eb6cda8b4b4b1e4ef29ce73c173eb0d0`.
 
 ## Stop
 
-Stop pending exact controller direction.
+Stop on a named fail-closed gate or after committed result, validation, checkpoint, and handoff.
