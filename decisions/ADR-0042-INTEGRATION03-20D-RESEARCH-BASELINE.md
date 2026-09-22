@@ -35,6 +35,8 @@ Preserve without rewrite: the original Exposure02 pre-result failure, GridFix V2
 
 Alpha Factory validation is 18/18 independent checks and 8/8 focused tests. A selected combined source suite is 45 pass and one inherited Windows checkout-byte hash failure; no full-suite PASS is claimed.
 
+The Alpha Factory work commit is `204bf7513e8baff852ef290734a548e4391ddb69` and its normal master merge is `5655926d199ed294028af8c37de22d451c17a46d`. The Research Ledger work commit is `930f1582ad7e8e349c029e8de4f49ecd4d8046d2` and its normal main merge is `64079e57c7e06c951b994a4dd739cb391cb651e1`.
+
 ## Boundaries
 
 Production champion remains `NONE`; confirmed Alpha remains `NO`; evidence remains `SELECTION_CONTAMINATED_RESEARCH`. The task accessed neither 2024-2025 nor protected 2026 rows and performed no new Alpha research, replay, deployment, broker, payment or credential action.

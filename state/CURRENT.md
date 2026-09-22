@@ -54,7 +54,7 @@ Last updated: 2026-09-22
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `INTEGRATION03_20D_RESEARCH_BASELINE_FREEZE_V1` / `CURRENT_20D_RESEARCH_BASELINE_V1_FROZEN`; exact final commit binding is in the completed task record |
+| Last completed execution task | `INTEGRATION03_20D_RESEARCH_BASELINE_FREEZE_V1` / `CURRENT_20D_RESEARCH_BASELINE_V1_FROZEN`; Alpha Factory work `204bf7513e8baff852ef290734a548e4391ddb69`, normal master merge `5655926d199ed294028af8c37de22d451c17a46d` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |

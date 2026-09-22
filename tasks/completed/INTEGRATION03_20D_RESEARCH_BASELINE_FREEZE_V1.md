@@ -8,9 +8,9 @@
 - Portfolio02 source merge: `8ae4910`
 - EVALRECON01 / Exposure02 V2 source merge: `f8938b1`
 - Alpha Factory work commit: `204bf7513e8baff852ef290734a548e4391ddb69`
-- Alpha Factory normal master merge: `PENDING_NORMAL_MERGE`
-- Research Ledger work commit: `PENDING_BINDING_COMMIT`
-- Research Ledger normal main merge: `PENDING_NORMAL_MERGE`
+- Alpha Factory normal master merge: `5655926d199ed294028af8c37de22d451c17a46d`
+- Research Ledger work commit: `930f1582ad7e8e349c029e8de4f49ecd4d8046d2`
+- Research Ledger normal main merge: `64079e57c7e06c951b994a4dd739cb391cb651e1`
 - Next: `HORIZON01_MULTI_HORIZON_PREDICTION_RESEARCH_DESIGN / DESIGN_ONLY`
 
 The task integrated validated source lineages, froze separate component identities and the EqualWeight comparator, recorded Horizon provenance and preserved historical failures. It ran no replay or new research and opened no later-period data.
