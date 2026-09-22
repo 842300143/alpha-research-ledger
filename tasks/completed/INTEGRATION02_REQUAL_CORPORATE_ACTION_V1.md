@@ -6,6 +6,8 @@
 - Ledger base: `236e8a227927806c1adb3338d017cc646ac4f712`
 - Alpha Factory work commit: `c5235189d866aa05c52f7e6802ae482b4a1b9972`
 - Alpha Factory state commit: `df5f374eefb7204a2705282dd8b4445d6ee9859e`
+- Alpha Factory normal merge commit: `b17b33bbaec09573e8b14af710830340a9aba392`
+- Research Ledger normal merge commit: `70ca84a11f6dc1dea7dbadec04ed13c0cf775315`
 - Outcome: `ENGINEERING_INTEGRATION_COMPLETE`
 - Next: `EXPOSURE02_AND_PORTFOLIO02_PARALLEL_DIRECTION`
 
