@@ -4,6 +4,10 @@
 
 Controller directive `ALPHA-INTEGRATION03-20D-RESEARCH-BASELINE-FREEZE-V1` authorizes a bounded engineering integration and research-baseline freeze. The task will integrate only the validated EVALRECON01, Portfolio02 and Exposure02 canonical-composition V2 lineages, preserve their failures and repairs, record the documented horizon provenance, and freeze `CURRENT_20D_RESEARCH_BASELINE_V1` with a separate EqualWeight comparator. It does not authorize a replay, new Alpha research, Horizon01 execution, 2024-2025 or 2026 access, production, payment, credentials or broker activity.
 
+## PORTFOLIO02 complete (2026-09-22)
+
+ADR-0034 closes `PORTFOLIO02_PIT_CORRECTED_SIZING_EVALUATION_V1` as `RANK_WEIGHT_PROVISIONAL` at Alpha Factory result commit `c4d49d782cc34c5666fc5f581f9d45ca45096ab8`. On identical corrected Ridge F1/S123 V2 Top20 candidates, AlwaysInvest exposure, exact event-aware semantics and the primary integer allocator, 50k/1x terminal wealth is RMB 59,600.99 for RankWeight, RMB 57,445.71 for EqualWeight and RMB 56,813.97 for ScoreTilt. All 15 attempts completed and passed the per-replay exact holding gate; validator is 16/16 and repository tests are 259/259. EqualWeight narrowly leads the 50k/2x diagnostic, so the result remains cost-sensitive, selection contaminated and provisional. EXPOSURE02 output, Cash Gate, 2024–2025 and 2026 were not used. Next is controller joint direction, not automatic joint execution.
+
 ## INTEGRATION02 complete (2026-09-22)
 
 ADR-0031 accepts the unified corrected-research and corporate-action engineering baseline at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972`, integration state commit `df5f374eefb7204a2705282dd8b4445d6ee9859e`, and normal master merge `b17b33bbaec09573e8b14af710830340a9aba392`. The Research Ledger normal main merge is `70ca84a11f6dc1dea7dbadec04ed13c0cf775315`. Current system is corrected Ridge F1/S123 V2 / `PROVISIONAL_RESEARCH_SYSTEM`; the pre-PIT system is `SUPERSEDED`; production champion is `NONE`; confirmed Alpha is `NO`. The 14 REQUAL impact warnings are explanation-only, not corrected-semantic blockers. CAQUAL02 leaves no event-data gap, and ELECTION01 supplies the frozen self-financing policy. Generic capability is `EXACT_EVENT_AWARE_UNDER_FROZEN_ELECTION_POLICY`; exact replay requires `HOLDING_PATH_EVENT_COVERAGE_GATE=EXACT_FOR_THIS_REPLAY`. Capital is RMB 50,000 primary and RMB 1,000,000 diagnostic. Alpha Factory passes 250 tests and 13 independent checks. No wealth replay, new Alpha research, 2024–2025 or 2026 access occurred.
@@ -34,7 +38,7 @@ Last updated: 2026-09-22
 | --- | --- |
 | Research Controller Repository | `D:\alpha-research-ledger` |
 | Execution Repository | `D:\alpha-factory` |
-| Last completed execution task | `INTEGRATION02_REQUAL_CORPORATE_ACTION_V1` / `ENGINEERING_INTEGRATION_COMPLETE` at Alpha Factory work commit `c5235189d866aa05c52f7e6802ae482b4a1b9972` |
+| Last completed execution task | `PORTFOLIO02_PIT_CORRECTED_SIZING_EVALUATION_V1` / `RANK_WEIGHT_PROVISIONAL` at Alpha Factory result commit `c4d49d782cc34c5666fc5f581f9d45ca45096ab8` |
 | Current research program | `P0-8 FACTOR ZOO & FACTOR STRUCTURE DISCOVERY V1` |
 | Current research policy | `FREE FIRST`; Generation-2 canonical factor-space research allowed under ADR-0014 |
 | RD-Agent | `PAUSED_CREDENTIAL_REQUIRED` |
@@ -69,7 +73,7 @@ Cumulative P0-7 predictive accounting is 34 configurations and 170 fold attempts
 - L1 Data: `FREE_DAILY_V1` supports bounded factor research on the action-aware subset. Full PIT, survivorship, authoritative tradability, corporate actions, and historical-delisted completeness remain unresolved.
 - L2 Alpha Discovery: a structured 103-definition factor taxonomy now replaces ad hoc neighboring-candidate search. Definitions remain draft until P0-8A.
 - L3 Alpha Evaluation: P0-8B/P0-8C protocols separate atomic evaluation from factor structure, add global FDR and shared empirical-null controls, and retain failures.
-- L4 Portfolio: Top-20 equal weight remains the research diagnostic baseline. No new constructor is authorized.
+- L4 Portfolio: corrected Top20 under AlwaysInvest now has provisional `RANK_WEIGHT_V1` sizing from PORTFOLIO02; the result is selection contaminated and cost-sensitive. EqualWeight remains the simplicity reference. No joint exposure-sizing constructor is authorized.
 - L5 Execution: costs and fills remain synthetic. Production and real-trading readiness remain `NO`.
 
 ## Evidence status
