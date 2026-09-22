@@ -18,6 +18,8 @@ This map connects active research decisions to the phases and artifacts they gov
 | ADR-0012 Generation 2 Mechanism/Orthogonality | Accepted | P0-7E seven-configuration budget and promotion gates | P0-7D redundancy, Formula-span, and forward-addition evidence |
 | ADR-0013 Last Major Iteration Before Holdout | Accepted | Post-P0-7E stop rule and holdout-decision sequencing | Cumulative search and P0-7D selection accounting |
 | ADR-0014 Generation-2 Factor Zoo Research Policy | Accepted | P0-8 canonical factor-space program; scoped interpretation of ADR-0013 | P0-7E completion, FREE_DAILY_V1 capability, P0-8 charter and registry |
+| ADR-0036 EVALRECON01 Common Baseline | Superseded active state | Bounded correctness reconciliation authority | EVALRECON01 completed task; ADR-0037 |
+| ADR-0037 EVALRECON01 Disposition | Accepted | Canonical Exposure02/Portfolio02 common baseline and forward-use limits | Alpha Factory EVALRECON01 report/checkpoint; Ledger result summary |
 
 ## Current decision path
 
